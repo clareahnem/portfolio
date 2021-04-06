@@ -1,14 +1,15 @@
-#GitHub Repository link
+# GitHub Repository link
 
-#functionality
+# functionality
 
-#purpose
-##target audience
+# purpose
 
-#features
+## target audience
 
-#tech stack
+# features
 
-#sitemap
+# tech stack
 
-#screenshots
+# sitemap
+
+# screenshots
