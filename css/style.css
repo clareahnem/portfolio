@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+footer {
+  text-align: center;
+  width: 100vw;
+  height: 10rem;
+  background: grey;
+  position: sticky;
+  bottom: 0;
+}
+footer p {
+  padding: 2rem;
+}
+footer a {
+  display: inline;
+  padding: 8vw;
+  margin-bottom: 2rem;
+}
+footer i {
+  font-size: 1.5rem;
+}
+footer #copyright {
+  color: darkgrey;
+  text-align: right;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
