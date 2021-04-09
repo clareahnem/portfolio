@@ -8,6 +8,34 @@ img {
     border-radius: 50%;
 }
 
+footer {
+    text-align: center;
+    width: 100vw;
+    height: 10rem;
+    background: grey;
+    position: sticky;
+    bottom: 0;
+
+    p {
+        padding: 2rem;
+    }
+    a {
+        display: inline;
+        padding: 8vw;
+        margin-bottom: 2rem;
+    }
+
+    i {  
+        font-size: 1.5rem;
+    }
+
+    #copyright {
+        color: darkgrey;
+        text-align: right;
+        font-size: 10px;
+    }
+}
+
 
   
   
