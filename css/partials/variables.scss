@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display&display=swap');
 
 $largefont: 'Cormorant Garamond', serif;
-$smallfont: 'Montserrat', sans-serif;
-$transparent-color: rgba(122, 130, 136, 0.5);
+$smallfont: 'Playfair Display', serif;;
+$transparent-color: rgba(123, 177, 212, 0.9);
+$text-color: rgb(89, 107, 112);
+
+@mixin glowy-text {
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 4px rgb(27, 148, 182);
+}
+
+@mixin regular-text {
+    color: $text-color;
+    line-height: 1.5;
+}
