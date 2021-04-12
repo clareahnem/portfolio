@@ -7,10 +7,9 @@
   box-sizing: border-box;
 }
 body {
-  min-height: 100vh;
   font-family: $smallfont;
   background: url(../images/cloud-background.jpg);
-  background-size: auto 100%;
+  background-size: auto 100vh;
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -47,6 +46,7 @@ body {
 main {
   margin: 3rem 5% 5% 5%;
   padding: 10px;
+  height: calc(100vh-10rem-2.7rem);
 }
 
 .title {
@@ -71,8 +71,8 @@ footer {
   }
   a {
     display: inline;
-    padding: 10px 8vw;
-    margin-bottom: 2rem;
+    padding: 0px 8vw;
+    
     color: rgba(255, 255, 255, 0.9);
     text-shadow: 0 0 3px rgb(255, 255, 255);
   }
