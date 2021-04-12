@@ -9,19 +9,19 @@
 body {
     min-height: 100%;
     font-family: $smallfont;
-    background-image: url(images/cloud-background.jpg);
-    background-size: cover;
+    background: url(../images/cloud-background-sml.jpg);
+    
 }
 
 //styling navigation
 .topnav {
-  background: grey;
+  background: rgba(128, 128, 128, 0.35);
   height: 2.7rem;
   width: 100vw;
   position: fixed;
   top: 0;
   text-align: center;
-  padding: 5px 0 0 0;
+  padding: 7px 0 0 0;
 
   a {
     padding: 0 10px;
@@ -31,18 +31,15 @@ body {
     }
     p {
       font-size: 10px;
-      font-family: $smallfont;
+      font-family: $largefont;
     }
   }
   #thispage {
-    i {
-      background: white;
-    }
+    color: white;
   }
 }
 //styling headers and main
 main {
-  background: yellow;
   margin: 3rem 5% 5% 5%;
   padding: 10px;
 }
@@ -58,11 +55,12 @@ footer {
   text-align: center;
   width: 100vw;
   height: 10rem;
-  background: grey;
+  background: rgba(128, 128, 128, 0.35);
   margin-bottom: 0;
   padding-bottom: 0;
   position: absolute;
   bottom: 0;
+  font-family: $largefont;
 
   p {
     padding: 2rem;
