@@ -6,8 +6,23 @@
 
 .topnav {
   background: grey;
-  height: 2rem;
+  height: 2.6rem;
   width: 100vw;
+  text-align: center;
+  padding: 5px 0;
+}
+.topnav a {
+  padding: 0 10px;
+}
+.topnav a .nav-icon {
+  font-size: 1.4rem;
+  padding: 3px;
+}
+.topnav a p {
+  font-size: 10px;
+}
+.topnav #thispage i {
+  background: white;
 }
 
 main {

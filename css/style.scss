@@ -9,8 +9,27 @@
 
 .topnav {
     background: grey;
-    height: 2rem;
+    height: 2.6rem;
     width: 100vw;
+    text-align: center;
+    padding: 5px 0;
+    
+    a {
+        padding: 0 10px;
+        .nav-icon {
+        font-size: 1.4rem;
+        padding: 3px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }  
+    #thispage {
+        i {
+            background: white;
+        }
+    }
+    
 }
  main {
      background: yellow;
@@ -59,7 +78,4 @@ footer {
 .title {
     text-align: center;
 }
-  
-  
-
   
