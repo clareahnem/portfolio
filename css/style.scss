@@ -8,6 +8,7 @@
 }
 body {
     min-height: 100%;
+    font-family: $smallfont;
 }
 .topnav {
   background: grey;
@@ -26,6 +27,7 @@ body {
     }
     p {
       font-size: 10px;
+      font-family: $smallfont;
     }
   }
   #thispage {

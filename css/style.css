@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
 
 body {
   min-height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .topnav {
@@ -26,6 +28,7 @@ body {
 }
 .topnav a p {
   font-size: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 .topnav #thispage i {
   background: white;
