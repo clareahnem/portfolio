@@ -4,19 +4,25 @@
   box-sizing: border-box;
 }
 
+body {
+  min-height: 100%;
+}
+
 .topnav {
   background: grey;
-  height: 2.6rem;
+  height: 2.7rem;
   width: 100vw;
+  position: fixed;
+  top: 0;
   text-align: center;
-  padding: 5px 0;
+  padding: 5px 0 0 0;
 }
 .topnav a {
   padding: 0 10px;
 }
 .topnav a .nav-icon {
   font-size: 1.4rem;
-  padding: 3px;
+  height: 100%;
 }
 .topnav a p {
   font-size: 10px;
@@ -27,8 +33,7 @@
 
 main {
   background: yellow;
-  min-height: 66vh;
-  margin: 5%;
+  margin: 3rem 5% 5% 5%;
   padding: 10px;
 }
 
@@ -39,6 +44,8 @@ footer {
   background: grey;
   margin-bottom: 0;
   padding-bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
 footer p {
   padding: 2rem;
@@ -66,6 +73,23 @@ footer #copyright {
 
 .title {
   text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .topnav {
+    text-align: right;
+    font-size: 1.5rem;
+    padding: 5px 5px 0 5px;
+  }
+  .topnav .nav-icon {
+    height: 100%;
+    padding: 0 3px;
+  }
+  .topnav .nav-icon p {
+    display: inline;
+    padding: 0 2px 5px 2px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
