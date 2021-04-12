@@ -8,6 +8,8 @@
 body {
   min-height: 100%;
   font-family: "Montserrat", sans-serif;
+  background-image: url(images/cloud-background.jpg);
+  background-size: cover;
 }
 
 .topnav {
@@ -38,6 +40,11 @@ main {
   background: yellow;
   margin: 3rem 5% 5% 5%;
   padding: 10px;
+}
+
+.title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
 }
 
 footer {

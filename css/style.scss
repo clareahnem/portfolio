@@ -1,6 +1,6 @@
 @import "partials/variables.scss";
 
-//styling main sections
+//styling html and body sections
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,11 @@
 body {
     min-height: 100%;
     font-family: $smallfont;
+    background-image: url(images/cloud-background.jpg);
+    background-size: cover;
 }
+
+//styling navigation
 .topnav {
   background: grey;
   height: 2.7rem;
@@ -36,12 +40,20 @@ body {
     }
   }
 }
+//styling headers and main
 main {
   background: yellow;
   margin: 3rem 5% 5% 5%;
   padding: 10px;
 }
 
+.title {
+    font-family: $largefont;
+    font-size: 35px;
+}
+
+
+//styling footers
 footer {
   text-align: center;
   width: 100vw;
