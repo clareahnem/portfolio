@@ -4,10 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-img {
-    height: 150px;
-    border-radius: 50%;
+
+.topnav {
+    background: grey;
+    height: 2rem;
+    width: 100vw;
 }
+ main {
+     background: yellow;
+     min-height: 66vh;
+     margin: 5%;
+     padding: 10px;
+    
+ }
 
 footer {
     text-align: center;
@@ -34,10 +43,20 @@ footer {
         color: darkgrey;
         text-align: right;
         font-size: 10px;
+        padding-bottom: 0;
+        margin: 0;
     }
 }
 
+//styling for overlapping components
+#profile-img {
+    height: 150px;
+    border-radius: 50%;
+}
 
+.title {
+    text-align: center;
+}
   
   
 
