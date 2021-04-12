@@ -7,15 +7,17 @@
   box-sizing: border-box;
 }
 body {
-    min-height: 100%;
-    font-family: $smallfont;
-    background: url(../images/cloud-background-sml.jpg);
-    
+  min-height: 100vh;
+  font-family: $smallfont;
+  background: url(../images/cloud-background.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 //styling navigation
 .topnav {
-  background: rgba(128, 128, 128, 0.35);
+  background: $transparent-color;
   height: 2.7rem;
   width: 100vw;
   position: fixed;
@@ -25,6 +27,8 @@ body {
 
   a {
     padding: 0 10px;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 3px rgb(255, 255, 255);
     .nav-icon {
       font-size: 1.4rem;
       height: 100%;
@@ -35,7 +39,8 @@ body {
     }
   }
   #thispage {
-    color: white;
+    color: rgb(173, 208, 233);
+    text-shadow: 0 0 3px rgb(173, 208, 233);
   }
 }
 //styling headers and main
@@ -45,17 +50,16 @@ main {
 }
 
 .title {
-    font-family: $largefont;
-    font-size: 35px;
+  font-family: $largefont;
+  font-size: 35px;
 }
-
 
 //styling footers
 footer {
   text-align: center;
   width: 100vw;
   height: 10rem;
-  background: rgba(128, 128, 128, 0.35);
+  background: $transparent-color;
   margin-bottom: 0;
   padding-bottom: 0;
   position: absolute;
@@ -67,8 +71,10 @@ footer {
   }
   a {
     display: inline;
-    padding: 8vw;
+    padding: 10px 8vw;
     margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 3px rgb(255, 255, 255);
   }
 
   i {
@@ -96,14 +102,14 @@ footer {
 
 //media queries
 @media only screen and (min-width: 600px) {
-  /* For tablets and larger: */
+  /* For tablets: */
   .topnav {
     text-align: right;
     font-size: 1.5rem;
-    padding: 5px 5px 0 5px;;
+    padding: 5px 5px 0 5px;
     .nav-icon {
-        height: 100%;
-        padding: 0 3px;
+      height: 100%;
+      padding: 0 3px;
       p {
         display: inline;
         padding: 0 2px 5px 2px;
