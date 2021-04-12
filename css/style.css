@@ -1,17 +1,56 @@
-/* Error: expected ";".
- *   ,
- * 3 | //styling main sections
- *   |                        ^
- *   '
- *   style.scss 3:24  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 3 \2502  //styling main sections\a   \2502                         ^\a   \2575 \a   style.scss 3:24  root stylesheet';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.topnav {
+  background: grey;
+  height: 2rem;
+  width: 100vw;
+}
+
+main {
+  background: yellow;
+  min-height: 66vh;
+  margin: 5%;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  width: 100vw;
+  height: 10rem;
+  background: grey;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+footer p {
+  padding: 2rem;
+}
+footer a {
+  display: inline;
+  padding: 8vw;
+  margin-bottom: 2rem;
+}
+footer i {
+  font-size: 1.5rem;
+}
+footer #copyright {
+  color: darkgrey;
+  text-align: right;
+  font-size: 10px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+#profile-img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.title {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
