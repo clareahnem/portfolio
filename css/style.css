@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display&display=swap");
 #home-container {
-  border: red solid 2px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,7 +14,6 @@
 }
 
 #home-container .home-child {
-  border: black 2px solid;
   text-align: center;
   padding: 10px 15px;
 }
@@ -53,6 +51,12 @@
   .home-main #home-container {
     -ms-flex-line-pack: center;
         align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #profile-img {
+    height: 230px;
   }
 }
 
@@ -63,17 +67,31 @@
           box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Playfair Display", serif;
   background: url(../images/cloud-background.jpg);
-  background-size: auto 100vh;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: left top;
+  min-height: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "nav" "main" "footer";
+  -ms-grid-rows: 2.7rem 1fr 10rem;
+      grid-template-rows: 2.7rem 1fr 10rem;
+  -ms-grid-columns: 100vw;
+      grid-template-columns: 100vw;
 }
 
 .topnav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: nav;
   background: rgba(123, 177, 212, 0.9);
-  height: 2.7rem;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -104,7 +122,9 @@ body {
 }
 
 main {
-  margin-top: 3rem;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: main;
 }
 
 main p {
@@ -121,14 +141,15 @@ main p {
 }
 
 footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
   text-align: center;
   font-family: "Cormorant Garamond", serif;
   width: 100vw;
-  height: 10rem;
   background: rgba(123, 177, 212, 0.9);
   margin-bottom: 0;
   padding-bottom: 0;
-  position: absolute;
   bottom: 0;
   -webkit-box-shadow: -1px -1px 3px rgba(118, 169, 182, 0.9);
           box-shadow: -1px -1px 3px rgba(118, 169, 182, 0.9);

@@ -7,18 +7,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
 body {
   font-family: $smallfont;
   background: url(../images/cloud-background.jpg);
-  background-size: auto 100vh;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: left top;
+  min-height: 100%;
+  display: grid;
+  grid-template-areas: "nav"
+                        "main"
+                        "footer";
+  grid-template-rows: 2.7rem 1fr 10rem;
+  grid-template-columns: 100vw;
 }
 
 //styling navigation
 .topnav {
+  grid-area: nav;
   background: $transparent-color;
-  height: 2.7rem;
+  //height: 2.7rem;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -45,8 +56,9 @@ body {
 }
 //styling headers and main
 main {
-  margin-top: 3rem;
-  //min-height: calc(100vh-10rem-2.7rem);
+  grid-area: main;
+  //margin-top: 3rem;
+  //height: calc(100vh-10rem-2.7rem);
   p {
     @include regular-text;
   }
@@ -61,14 +73,14 @@ main {
 
 //styling footers
 footer {
+  grid-area: footer;
   text-align: center;
   font-family: $largefont;
   width: 100vw;
-  height: 10rem;
+  //height: 10rem;
   background: $transparent-color;
   margin-bottom: 0;
   padding-bottom: 0;
-  position: absolute;
   bottom: 0;
   box-shadow: -1px -1px 3px rgba(118, 169, 182, 0.9);
 

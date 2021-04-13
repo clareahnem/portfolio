@@ -1,14 +1,12 @@
 // creating flexbox for main section of home page
 
 #home-container {
-  border: red solid 2px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   justify-items: center;
 
   .home-child {
-    border: black 2px solid;
     text-align: center;
     padding: 10px 15px;
     p {
@@ -43,6 +41,10 @@
     padding-top: 3rem;
     #home-container {
       align-content: center;
+      align-items: center;
     }
+  }
+  #profile-img {
+      height: 230px;
   }
 }
