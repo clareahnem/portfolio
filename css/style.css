@@ -76,7 +76,23 @@
 
 #about-main {
   margin: 3rem 10px 10px 10px;
-  border: black solid 2px;
+}
+
+#resume {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#resume button {
+  line-height: 2.5rem;
+  margin: 2.5rem 0;
+  padding: 5px 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14px;
+  border: none;
+  background: white;
+  -webkit-box-shadow: 0 0 4px white;
+          box-shadow: 0 0 4px white;
 }
 
 .ab-container {
@@ -85,20 +101,124 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: green solid 2px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .ab-container .ab-child {
-  border: red solid 2px;
   margin: 10px 0;
 }
 
 .ab-container .ab-child p {
   font-size: 12px;
   padding: 10px;
+}
+
+.ab-container .img-containing {
+  text-align: center;
+}
+
+#skills {
+  background: rgba(93, 109, 114, 0.8);
+  -webkit-box-shadow: 0 0 4px #3f6670;
+          box-shadow: 0 0 4px #3f6670;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#skills .skills-child {
+  margin: 10px 0;
+}
+
+.single-skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.single-skill .skill-icon {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.single-skill .skill-text {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.single-skill .html5 {
+  color: #f34e2c;
+  text-shadow: 0 0 2px #f34e2c;
+}
+
+.single-skill .css3 {
+  color: #066eb1;
+  text-shadow: 0 0 2px #066eb1;
+}
+
+.single-skill .sass {
+  color: #cf6a9e;
+  text-shadow: 0 0 2px #cf6a9e;
+}
+
+.single-skill .gem {
+  color: #d31208;
+  text-shadow: 0 0 2px #d31208;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  #about-main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #about-main p {
+    font-size: 16px;
+  }
+  .ab-child {
+    padding: 15px;
+  }
+  #skills .skill-icon {
+    font-size: 2.4rem;
+  }
+  #skills .skill-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  /* For desktop: */
+  .ab-container {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #profile-img {
+    height: 200px;
+  }
+  #skills {
+    height: 200px;
+  }
+  #skills .skill-icon {
+    font-size: 3rem;
+  }
+  #skills .skill-text {
+    font-size: 20px;
+  }
 }
 
 * {
@@ -299,7 +419,7 @@ footer #copyright {
     width: 33.33%;
   }
   .col-5 {
-    width: 41.66%;
+    width: 47%;
   }
   .col-6 {
     width: 50%;

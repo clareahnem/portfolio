@@ -5,10 +5,16 @@ $smallfont: 'Playfair Display', serif;;
 $transparent-color: rgba(123, 177, 212, 0.9);
 $text-color: rgb(89, 107, 112);
 $blur-shadow: 0 0 4px rgb(63, 102, 112);
+$div-background: rgba(93, 109, 114, 0.8);
 
 @mixin glowy-text {
     color:rgb(255, 255, 255);
     text-shadow: 0 0 4px rgb(27, 148, 182);
+}
+
+@mixin glowy-box ($bkg-color:rgb(255, 255, 255)){
+    background: $bkg-color;
+    box-shadow: 0 0 4px $bkg-color;
 }
 
 @mixin regular-text {
@@ -20,3 +26,4 @@ $blur-shadow: 0 0 4px rgb(63, 102, 112);
     color: $color;
     text-shadow: 0 0 2px $color;
 }
+
