@@ -45,9 +45,9 @@ body {
 }
 //styling headers and main
 main {
-  margin: 3rem 5% 5% 5%;
-  padding: 10px;
-  min-height: calc(100vh-10rem-2.7rem);
+  margin-top: 3rem;
+  //padding: 10px;
+  //min-height: calc(100vh-10rem-2.7rem);
   p {
     @include regular-text;
   }
@@ -99,18 +99,11 @@ footer {
   }
 }
 
-//styling for overlapping components
-#profile-img {
-  height: 150px;
-  border-radius: 50%;
-}
 
 //media queries
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  main {
-      padding: 4rem 20px;
-  }
+  
   .topnav {
     text-align: right;
     font-size: 1.5rem;
@@ -125,9 +118,12 @@ footer {
       }
     }
   }
+  .title {
+    font-size: 50px;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 780px) {
     /* For desktop: */
     body {
         background-size: 100% 100vh;
