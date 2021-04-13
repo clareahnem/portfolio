@@ -71,6 +71,34 @@
   font-family: "Cormorant Garamond", serif;
   color: white;
   text-shadow: 0 0 4px #1b94b6;
+  text-align: center;
+}
+
+#about-main {
+  margin: 3rem 10px 10px 10px;
+  border: black solid 2px;
+}
+
+.ab-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: green solid 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ab-container .ab-child {
+  border: red solid 2px;
+  margin: 10px 0;
+}
+
+.ab-container .ab-child p {
+  font-size: 12px;
+  padding: 10px;
 }
 
 * {
