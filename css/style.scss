@@ -16,6 +16,7 @@ body {
   background: url(../images/cloud-background.jpg);
   background-size: auto 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: left top;
   min-height: 100%;
   display: grid;
@@ -40,8 +41,7 @@ body {
 
   a {
     padding: 0 10px;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0 0 2px rgb(255, 255, 255);
+    @include icon-glow($color:rgba(255, 255, 255, 0.9));
     .nav-icon {
       font-size: 1.4rem;
       height: 100%;
@@ -93,9 +93,7 @@ footer {
   a {
     display: inline;
     padding: 0px 8vw;
-
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0 0 3px rgb(255, 255, 255);
+    @include icon-glow($color:rgba(255, 255, 255, 0.9));
   }
 
   i {

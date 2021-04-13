@@ -1,0 +1,11 @@
+//styling main components of about.html
+
+#profile-img {
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: $blur-shadow;
+}
+.subtitle {
+    font-family: $largefont;
+    @include glowy-text;
+}

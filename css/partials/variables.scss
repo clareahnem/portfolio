@@ -16,3 +16,7 @@ $blur-shadow: 0 0 4px rgb(63, 102, 112);
     line-height: 1.5;
 }
 
+@mixin icon-glow ($color: rgba(255, 255, 255, 0.9)) {
+    color: $color;
+    text-shadow: 0 0 2px $color;
+}
