@@ -723,5 +723,8 @@ footer #copyright {
     background-size: 100% 100vh;
     background-repeat: no-repeat;
   }
+  body .title {
+    font-size: 60px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
