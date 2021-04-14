@@ -1,0 +1,52 @@
+.blog-img {
+    height: 150px;
+}
+//adding basic stylings for blogs page
+#blogs-main {
+    border: solid black 2px;
+    margin: 2rem 10px 10px 10px;
+    h2 {
+        color: rgb(255, 255, 255);
+        //text-shadow: $white-glow;
+    }
+    .blog-text {
+        p {
+            color: $text-color;
+            text-shadow: $white-glow;
+            text-align: right;
+        }
+    }
+}
+
+//adding flexbox to blog posts
+.blogs-container {
+    border: solid red 2px;
+    display: flex;
+    flex-flow: row wrap;
+    .blogs-child {
+        border: solid green 2px;
+        @include glowy-box($bkg-color: $div-background);
+        margin: 10px 5px;
+        padding: 10px;
+    }
+}
+
+//adding flexbox within flexbox
+.single-blog {
+    display: flex;
+    flex-flow: row wrap;
+    .photo {
+        border: black solid 1px;
+        text-align: center;
+        .blog-img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .blog-text {
+        border: black solid 1px;
+    }
+    .blog-content {
+        border: black solid 1px;
+    }
+}

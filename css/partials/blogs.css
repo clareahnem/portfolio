@@ -1,0 +1,17 @@
+.blog-img {
+  height: 150px;
+}
+
+#blogs-main {
+  border: solid black 2px;
+  margin: 2rem 10px 10px 10px;
+}
+
+#blogs-main .blogs-container {
+  border: solid red 2px;
+}
+
+#blogs-main .blogs-container .blogs-child {
+  border: solid green 2px;
+}
+/*# sourceMappingURL=blogs.css.map */
