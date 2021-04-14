@@ -351,9 +351,12 @@ body {
   -ms-grid-column: 1;
   grid-area: nav;
   background: rgba(123, 177, 212, 0.9);
+  height: 2.7rem;
   width: 100vw;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   padding: 7px 0 0 0;
   -webkit-box-shadow: 1px 1px 4px rgba(118, 169, 182, 0.9);
@@ -361,14 +364,13 @@ body {
 }
 
 .topnav a {
-  padding: 0 10px;
+  padding: 3px 10px;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.9);
 }
 
 .topnav a .nav-icon {
   font-size: 1.4rem;
-  height: 100%;
 }
 
 .topnav a p {
