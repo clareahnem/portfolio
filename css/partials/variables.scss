@@ -28,3 +28,12 @@ $white-glow: 0 0 4px rgb(255, 255, 255);
     text-shadow: 0 0 2px $color;
 }
 
+@mixin white-button {
+    line-height: 2.5rem;
+    margin: 2.5rem 0;
+    padding: 5px 10px;
+    font-family: $largefont;
+    font-size: 14px;
+    border: none;
+    @include glowy-box;
+}

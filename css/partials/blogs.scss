@@ -1,6 +1,17 @@
 .blog-img {
     height: 150px;
 }
+.back-top {
+    text-align: center;
+    button {
+        @include white-button;
+        a {
+            text-decoration: none;
+            font-family: $smallfont;
+            color: $text-color;
+        }
+    }
+}
 //adding basic stylings for blogs page
 #blogs-main {
     border: solid black 2px;
@@ -14,6 +25,28 @@
             color: $text-color;
             text-shadow: $white-glow;
             text-align: right;
+        }
+    }
+    .blog-content {
+        font-family: $smallfont;
+        color: rgb(255, 255, 255);
+        p {
+            font-family: $smallfont;
+            color:rgb(255, 255, 255);
+            padding: 10px 0;
+            font-size: 12px;
+        }
+        .button {
+            box-shadow: 2px 2px 4px rgb(82, 96, 100), -2px -2px 4px rgb(82, 96, 100);
+            background: $div-background;
+            border: none;
+            font-family: $smallfont;
+            padding: 5px;
+            font-size: 14px;
+        }
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
         }
     }
 }

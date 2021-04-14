@@ -19,13 +19,7 @@
     text-align: center;
     margin: 20px 0;
     button {
-        line-height: 2.5rem;
-        margin: 2.5rem 0;
-        padding: 5px 10px;
-        font-family: $largefont;
-        font-size: 14px;
-        border: none;
-        @include glowy-box;
+        @include white-button;
     }
 }
 
