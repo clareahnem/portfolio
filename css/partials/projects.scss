@@ -9,6 +9,7 @@
     }
     .project-title {
         @include glowy-text;
+        font-size: 18px;
     }
 }
 
@@ -47,4 +48,33 @@
         border: orange 1px solid;
         text-align: center;
     }
+}
+
+//media queries
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .project-child:hover {
+        width: 47%;
+        .project-title {
+            font-size: 27px;
+        }
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    /* For desktop: */
+    .project-container {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        .project-title {
+            font-size: 14px;
+        }
+        .project-child:hover {
+            width: 80%;
+            .project-title {
+                font-size: 30px;
+            }
+        }
+    }
+    
 }
