@@ -6,7 +6,7 @@ $transparent-color: rgba(123, 177, 212, 0.9);
 $text-color: rgb(89, 107, 112);
 $blur-shadow: 0 0 4px rgb(63, 102, 112);
 $div-background: rgba(93, 109, 114, 0.8);
-$white-glow: 0 0 4px rgb(255, 255, 255);
+$white-glow: 0 0 3px rgb(255, 255, 255);
 
 @mixin glowy-text {
     color:rgb(255, 255, 255);
