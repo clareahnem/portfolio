@@ -1,0 +1,29 @@
+.contact-main {
+  margin: 2rem 10px 10px 10px;
+}
+
+.contact-main div {
+  border: solid 1px black;
+  margin: 10px;
+}
+
+.contact-main form {
+  border: red 1px solid;
+  margin: 0 10px;
+}
+
+.contact-main form label {
+  display: block;
+}
+
+.contact-main form input {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.contact-main form textarea {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=contact.css.map */

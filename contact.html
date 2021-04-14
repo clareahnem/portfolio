@@ -23,14 +23,16 @@
       <header>
           <h1 class="title">Contact Me</h1>
       </header>
-      <div>
+      <div class="contact-description">
           <p>Please feel free to leave a comment, feedback, question...etc. so I can grow into a better web developer! Any type of feedback would be greatly appreciated, thank you.</p>
       </div>
       <form action="https://formspree.io/f/xzbyzpdq" method="POST">
-        <label>Your email:<input type="email" name="_replyto"></label>
-        <label>Your message:
-            <textarea name="message"></textarea>
-        </label>
+            <label>Your email:<input type="email" name="_replyto" required></label>
+            <label>Your message:
+                <textarea name="message" placeholder="Hi Clare!..." rows="10" required></textarea>
+            </label>
+            <div class="sendbutton"><button type="submit">SEND</button></div>
+        </form>
     </main>
     <footer>
       <p>Find Me...</p>

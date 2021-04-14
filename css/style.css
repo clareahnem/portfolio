@@ -496,6 +496,72 @@
   }
 }
 
+.contact-main {
+  margin: 2rem 10px 10px 10px;
+}
+
+.contact-main .contact-description {
+  border: solid 1px black;
+  margin: 10px 10vw;
+}
+
+.contact-main form {
+  border: red 1px solid;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.contact-main form label {
+  display: block;
+  color: #596b70;
+  line-height: 1.5;
+}
+
+.contact-main form input {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  background: rgba(93, 109, 114, 0.8);
+}
+
+.contact-main form textarea {
+  display: block;
+  width: 100%;
+  background: rgba(93, 109, 114, 0.8);
+  color: white;
+}
+
+.contact-main form ::-webkit-input-placeholder {
+  color: rgba(101, 216, 255, 0.9);
+}
+
+.contact-main form :-ms-input-placeholder {
+  color: rgba(101, 216, 255, 0.9);
+}
+
+.contact-main form ::-ms-input-placeholder {
+  color: rgba(101, 216, 255, 0.9);
+}
+
+.contact-main form ::placeholder {
+  color: rgba(101, 216, 255, 0.9);
+}
+
+.contact-main form .sendbutton {
+  text-align: center;
+}
+
+.contact-main form .sendbutton button {
+  background: white;
+  -webkit-box-shadow: 0 0 4px white;
+          box-shadow: 0 0 4px white;
+  font-family: "Playfair Display", serif;
+  line-height: 2;
+  padding: 3px 10px;
+  margin-top: 10px;
+  border: none;
+}
+
 * {
   margin: 0;
   padding: 0;
