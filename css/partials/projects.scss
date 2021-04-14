@@ -1,36 +1,47 @@
-.project-img {
-    width: 150px;
-}
+
 //styling main components of project.html
 .project-main {
     margin: 2rem 10px 10px 10px;
     border: solid black 2px;
     header {
         border: solid red 2px;
+        margin: 0 0 10px 0;
+    }
+    .project-title {
+        @include glowy-text;
     }
 }
-
 
 //flexbox for projects
 .project-container {
     border: green solid 2px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     .project-child {
         border: blue solid 2px;
+        margin: 10px;
+        height: 100%;
+        background: $div-background;
     }
 }
 
 //flexbox within flexbox
 .single-prj {
-    display: flex;
+    border: purple solid 1px;
     height: 100%;
+    margin: 10px;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     .prj-pic {
         border: orange 1px solid;
         text-align: center;
+        .project-img {
+            width: 98%;
+            border-radius: 10px;
+            @include glowy-box;
+        }
     }
     .prj-text {
         border: orange 1px solid;

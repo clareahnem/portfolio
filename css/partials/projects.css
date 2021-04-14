@@ -1,5 +1,5 @@
 .project-img {
-  width: 150px;
+  width: 300px;
 }
 
 .project-main {
@@ -9,6 +9,7 @@
 
 .project-main header {
   border: solid red 2px;
+  margin: 0 0 10px 0;
 }
 
 .project-container {
