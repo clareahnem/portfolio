@@ -501,12 +501,10 @@
 }
 
 .contact-main .contact-description {
-  border: solid 1px black;
   margin: 10px 10vw;
 }
 
 .contact-main form {
-  border: red 1px solid;
   margin: 0 auto;
   max-width: 400px;
 }
