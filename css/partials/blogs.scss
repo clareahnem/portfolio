@@ -1,26 +1,14 @@
-.blog-img {
-    height: 150px;
-}
-.back-top {
-    text-align: center;
-    button {
-        @include white-button;
-        a {
-            text-decoration: none;
-            font-family: $smallfont;
-            color: $text-color;
-        }
-    }
-}
+
+
 //adding basic stylings for blogs page
-#blogs-main {
+.blogs-main {
     border: solid black 2px;
     margin: 2rem 10px 10px 10px;
     h2 {
         color: rgb(255, 255, 255);
         //text-shadow: $white-glow;
     }
-    .blog-text {
+    .blog-header {
         p {
             color: $text-color;
             text-shadow: $white-glow;
@@ -47,6 +35,17 @@
         a {
             color: rgb(255, 255, 255);
             text-decoration: none;
+        }
+    }
+    .back-top {
+        text-align: center;
+        button {
+            @include white-button;
+            a {
+                text-decoration: none;
+                font-family: $smallfont;
+                color: $text-color;
+            }
         }
     }
 }
@@ -76,10 +75,32 @@
             height: auto;
         }
     }
-    .blog-text {
+    .flip {
+        order: -1;
+    }
+    .blog-header {
         border: black solid 1px;
     }
     .blog-content {
         border: black solid 1px;
+    }
+}
+
+//media queries
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .blogs-container {
+        margin: 20px;
+        .blogs-child {
+            padding: 20px;
+            .blog-img {
+                width: 90%;
+            }
+        }
+    }
+    .blogs-child:hover {
+        .blog-img {
+            width: 100%;
+        }
     }
 }
