@@ -565,7 +565,7 @@ body {
 }
 
 .topnav a p {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 .topnav #thispage {
@@ -615,7 +615,7 @@ footer p {
 
 footer a {
   display: inline;
-  padding: 0px 8vw;
+  padding: 0px 12vw;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.9);
 }
@@ -686,8 +686,8 @@ footer #copyright {
   }
   .topnav .nav-icon p {
     display: inline;
-    padding: 0 5px 5px 5px;
-    font-size: 13px;
+    padding: 0 2.5px 5px 5px;
+    font-size: 14px;
   }
   .title {
     font-size: 50px;
