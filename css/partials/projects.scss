@@ -1,0 +1,39 @@
+.project-img {
+    width: 150px;
+}
+//styling main components of project.html
+.project-main {
+    margin: 2rem 10px 10px 10px;
+    border: solid black 2px;
+    header {
+        border: solid red 2px;
+    }
+}
+
+
+//flexbox for projects
+.project-container {
+    border: green solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .project-child {
+        border: blue solid 2px;
+    }
+}
+
+//flexbox within flexbox
+.single-prj {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    .prj-pic {
+        border: orange 1px solid;
+        text-align: center;
+    }
+    .prj-text {
+        border: orange 1px solid;
+        text-align: center;
+    }
+}
