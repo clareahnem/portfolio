@@ -92,6 +92,9 @@ main {
       animation-duration: 3s;
       animation-timing-function: linear;
   }
+  button:hover {
+    animation: button-expand 1.5s forwards;
+  }
 }
 
 

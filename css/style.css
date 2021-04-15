@@ -96,6 +96,22 @@
   }
 }
 
+@-webkit-keyframes button-expand {
+  100% {
+    padding: 5px 20px;
+    -webkit-box-shadow: 0 0 4px #3f6670;
+            box-shadow: 0 0 4px #3f6670;
+  }
+}
+
+@keyframes button-expand {
+  100% {
+    padding: 5px 20px;
+    -webkit-box-shadow: 0 0 4px #3f6670;
+            box-shadow: 0 0 4px #3f6670;
+  }
+}
+
 #home-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -772,6 +788,11 @@ main #profile-img {
           animation-duration: 3s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+}
+
+main button:hover {
+  -webkit-animation: button-expand 1.5s forwards;
+          animation: button-expand 1.5s forwards;
 }
 
 footer {

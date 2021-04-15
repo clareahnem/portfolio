@@ -73,6 +73,17 @@ $white-glow: 0 0 3px rgb(255, 255, 255);
         text-shadow: 0 0 4px var(--glowColor);
       }
   }
+//   @keyframes boxglow-animation {
+//         0% {
+//             box-shadow: 0 0 4px var(--glowColor);
+//         }
+//         50% {
+//             box-shadow: none;
+//         }
+//         100% {
+//         box-shadow: 0 0 4px var(--glowColor);
+//         }
+//     }
 
   @keyframes changecolor {
       100% {
@@ -87,4 +98,12 @@ $white-glow: 0 0 3px rgb(255, 255, 255);
       100% {
           transform: rotate(360deg) scale(1, 1);
       }
+  }
+
+  @keyframes button-expand {
+      100% {
+          padding: 5px 20px;
+          box-shadow: $blur-shadow;
+      }
+
   }

@@ -95,4 +95,20 @@
             transform: rotate(360deg) scale(1, 1);
   }
 }
+
+@-webkit-keyframes button-expand {
+  100% {
+    padding: 5px 20px;
+    -webkit-box-shadow: 0 0 4px #3f6670;
+            box-shadow: 0 0 4px #3f6670;
+  }
+}
+
+@keyframes button-expand {
+  100% {
+    padding: 5px 20px;
+    -webkit-box-shadow: 0 0 4px #3f6670;
+            box-shadow: 0 0 4px #3f6670;
+  }
+}
 /*# sourceMappingURL=variables.css.map */
