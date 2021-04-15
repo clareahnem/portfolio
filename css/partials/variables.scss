@@ -74,3 +74,9 @@ $white-glow: 0 0 3px rgb(255, 255, 255);
         text-shadow: 0 0 4px rgb(255, 255, 255);
       }
   }
+
+  @keyframes changecolor {
+      100% {
+          color: $text-color;
+      }
+  }

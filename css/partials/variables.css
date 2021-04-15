@@ -61,4 +61,16 @@
     text-shadow: 0 0 4px white;
   }
 }
+
+@-webkit-keyframes changecolor {
+  100% {
+    color: #596b70;
+  }
+}
+
+@keyframes changecolor {
+  100% {
+    color: #596b70;
+  }
+}
 /*# sourceMappingURL=variables.css.map */

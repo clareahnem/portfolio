@@ -62,6 +62,18 @@
   }
 }
 
+@-webkit-keyframes changecolor {
+  100% {
+    color: #596b70;
+  }
+}
+
+@keyframes changecolor {
+  100% {
+    color: #596b70;
+  }
+}
+
 #home-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -756,6 +768,17 @@ footer a {
   padding: 0px 12vw;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.9);
+}
+
+footer a:hover {
+  -webkit-animation-name: changecolor;
+          animation-name: changecolor;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 footer i {
