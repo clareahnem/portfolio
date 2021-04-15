@@ -694,6 +694,15 @@ main .title {
           animation-timing-function: ease;
 }
 
+main #profile-img {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
 footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
