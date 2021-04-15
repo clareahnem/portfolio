@@ -64,19 +64,27 @@ $white-glow: 0 0 3px rgb(255, 255, 255);
 
   @keyframes textglow-animation {
       0% {
-          text-shadow: 0 0 4px rgb(255, 255, 255);
+          text-shadow: 0 0 4px var(--glowColor);
       }
       50% {
-          //text-shadow: 1px 1px 5px rgb(130, 240, 248);
           text-shadow: none;
       }
       100% {
-        text-shadow: 0 0 4px rgb(255, 255, 255);
+        text-shadow: 0 0 4px var(--glowColor);
       }
   }
 
   @keyframes changecolor {
       100% {
           color: $text-color;
+      }
+  }
+
+  @keyframes rotate {
+      50% {
+          transform: rotate(180deg) scale(1.3, 1.3);
+      }
+      100% {
+          transform: rotate(360deg) scale(1, 1);
       }
   }

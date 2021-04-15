@@ -58,6 +58,7 @@ body {
     
   }
     a:hover {
+      --glowColor: rgb(255, 255, 255);
       animation-name: textglow-animation;
       animation-duration: 1s;
       animation-iteration-count: infinite;
@@ -119,7 +120,7 @@ footer {
   }
   a:hover {
     animation-name: changecolor;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
   }

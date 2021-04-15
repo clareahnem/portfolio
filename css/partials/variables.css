@@ -40,25 +40,25 @@
 
 @-webkit-keyframes textglow-animation {
   0% {
-    text-shadow: 0 0 4px white;
+    text-shadow: 0 0 4px var(--glowColor);
   }
   50% {
     text-shadow: none;
   }
   100% {
-    text-shadow: 0 0 4px white;
+    text-shadow: 0 0 4px var(--glowColor);
   }
 }
 
 @keyframes textglow-animation {
   0% {
-    text-shadow: 0 0 4px white;
+    text-shadow: 0 0 4px var(--glowColor);
   }
   50% {
     text-shadow: none;
   }
   100% {
-    text-shadow: 0 0 4px white;
+    text-shadow: 0 0 4px var(--glowColor);
   }
 }
 
@@ -71,6 +71,28 @@
 @keyframes changecolor {
   100% {
     color: #596b70;
+  }
+}
+
+@-webkit-keyframes rotate {
+  50% {
+    -webkit-transform: rotate(180deg) scale(1.3, 1.3);
+            transform: rotate(180deg) scale(1.3, 1.3);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1, 1);
+            transform: rotate(360deg) scale(1, 1);
+  }
+}
+
+@keyframes rotate {
+  50% {
+    -webkit-transform: rotate(180deg) scale(1.3, 1.3);
+            transform: rotate(180deg) scale(1.3, 1.3);
+  }
+  100% {
+    -webkit-transform: rotate(360deg) scale(1, 1);
+            transform: rotate(360deg) scale(1, 1);
   }
 }
 /*# sourceMappingURL=variables.css.map */
