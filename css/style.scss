@@ -61,6 +61,8 @@ body {
     text-shadow: 0 0 3px rgb(75, 139, 168);
   }
 }
+
+
 //styling headers and main
 main {
   grid-area: main;
@@ -69,14 +71,18 @@ main {
   p {
     @include regular-text;
   }
+  .title {
+    font-family: $largefont;
+    font-size: 40px;
+    text-align: center;
+    @include glowy-text;
+    animation-name: fadein-movedown;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+  }
+
 }
 
-.title {
-  font-family: $largefont;
-  font-size: 40px;
-  text-align: center;
-  @include glowy-text;
-}
 
 //styling footers
 footer {
@@ -225,3 +231,4 @@ footer {
     }
   }
 }
+

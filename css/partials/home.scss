@@ -13,12 +13,17 @@
       margin-top: 10px;
     }
   }
+    #profile-img {
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: $blur-shadow;
+      animation-name: fadein;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+    }
 }
-#profile-img {
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: $blur-shadow;
-}
+
+
 
 //media queries
 @media only screen and (min-width: 600px) {
@@ -29,10 +34,11 @@
     p {
       padding: 10px 20px;
     }
+    #profile-img {
+        height: 200px;
+      }
   }
-  #profile-img {
-    height: 200px;
-  }
+  
 }
 @media only screen and (min-width: 780px) {
   /* For desktop: */
@@ -42,9 +48,10 @@
     #home-container {
       align-content: center;
       align-items: center;
+      #profile-img {
+        height: 230px;
+      }
     }
   }
-  #profile-img {
-      height: 230px;
-  }
+  
 }
