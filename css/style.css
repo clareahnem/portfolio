@@ -112,6 +112,72 @@
   }
 }
 
+@-webkit-keyframes div-expand {
+  100% {
+    width: var(--endWidth);
+  }
+}
+
+@keyframes div-expand {
+  100% {
+    width: var(--endWidth);
+  }
+}
+
+@-webkit-keyframes div-expand-reverse {
+  from {
+    width: var(--endWidth);
+  }
+  to {
+    width: var(--startWidth);
+  }
+}
+
+@keyframes div-expand-reverse {
+  from {
+    width: var(--endWidth);
+  }
+  to {
+    width: var(--startWidth);
+  }
+}
+
+@-webkit-keyframes expand {
+  100% {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+}
+
+@keyframes expand {
+  100% {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+}
+
+@-webkit-keyframes expand-reverse {
+  from {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes expand-reverse {
+  from {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 #home-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -358,6 +424,7 @@
 }
 
 .project-container {
+  margin: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -367,10 +434,21 @@
       justify-content: space-around;
 }
 
+.project-container .project-child:hover {
+  --scale: 1.1;
+  -webkit-animation: expand 0.5s forwards;
+          animation: expand 0.5s forwards;
+}
+
 .project-container .project-child {
   margin: 10px;
   height: 100%;
   background: rgba(93, 109, 114, 0.8);
+  --scale: 1.1;
+  -webkit-animation-name: expand-reverse;
+          animation-name: expand-reverse;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 
 .single-prj {
@@ -406,10 +484,18 @@
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .project-child:hover {
-    width: 47%;
+    --scale: 1.02;
+    -webkit-animation: expand 0.5s forwards;
+            animation: expand 0.5s forwards;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
-  .project-child:hover .project-title {
-    font-size: 27px;
+  .project-child {
+    --scale: 1.02;
+    -webkit-animation-name: expand-reverse;
+            animation-name: expand-reverse;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
   }
 }
 
@@ -426,17 +512,36 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .project-container .project-child:hover {
+    --endWidth: 80%;
+    -webkit-animation: div-expand 1s forwards;
+            animation: div-expand 1s forwards;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  .project-container .project-child:hover .project-title {
+    --scale: 1.55;
+    -webkit-animation: expand 1s forwards;
+            animation: expand 1s forwards;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
   .project-container .project-child {
     min-height: 120px;
+    --endWidth: 80%;
+    --startWidth: 25%;
+    -webkit-animation-name: div-expand-reverse;
+            animation-name: div-expand-reverse;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
   }
   .project-container .project-title {
     font-size: 14px;
-  }
-  .project-container .project-child:hover {
-    width: 80%;
-  }
-  .project-container .project-child:hover .project-title {
-    font-size: 30px;
+    --scale: 1.55;
+    -webkit-animation-name: expand-reverse;
+            animation-name: expand-reverse;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
   }
 }
 

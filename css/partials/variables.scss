@@ -105,5 +105,31 @@ $white-glow: 0 0 3px rgb(255, 255, 255);
           padding: 5px 20px;
           box-shadow: $blur-shadow;
       }
+  }
+  @keyframes div-expand {
+      100% {
+          width: var(--endWidth);
+      }
+  }
+  @keyframes div-expand-reverse {
+      from {
+          width: var(--endWidth);
+      }
+      to {
+          width: var(--startWidth);
+      }
+  }
+  @keyframes expand {
+      100% {
+          transform: scale(var(--scale));
+      }
+  }
 
+  @keyframes expand-reverse {
+      from {
+          transform: scale(var(--scale));
+      }
+      to {
+          transform: scale(1);
+      }
   }

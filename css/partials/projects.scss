@@ -13,13 +13,21 @@
 
 //flexbox for projects
 .project-container {
+    margin: 0 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    .project-child:hover {
+        --scale: 1.1;
+        animation: expand 0.5s forwards;
+    }
     .project-child {
         margin: 10px;
         height: 100%;
         background: $div-background;
+        --scale: 1.1;
+        animation-name: expand-reverse;
+        animation-duration: 0.3s;
     }
 }
 
@@ -47,10 +55,18 @@
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .project-child:hover {
-        width: 47%;
-        .project-title {
-            font-size: 27px;
-        }
+        --scale: 1.02;
+        animation: expand 0.5s forwards;
+        animation-timing-function: ease-out;
+        // width: 47%;
+        // .project-title {
+        //     font-size: 27px;
+        // }
+    }
+    .project-child {
+        --scale: 1.02;
+        animation-name: expand-reverse;
+        animation-duration: 0.5s
     }
 }
 
@@ -61,17 +77,29 @@
         justify-content: flex-start;
         flex-wrap: nowrap;
         align-items: center;
+        
+        .project-child:hover {
+            --endWidth: 80%;
+            animation: div-expand 1s forwards;
+            animation-timing-function: ease-out;
+            .project-title {
+                --scale: 1.55;
+                animation: expand 1s forwards;
+                animation-timing-function: ease-out;
+            }
+        }
         .project-child {
             min-height: 120px;
+            --endWidth: 80%;
+            --startWidth: 25%;
+            animation-name: div-expand-reverse;
+            animation-duration: 1s;
         }
         .project-title {
             font-size: 14px;
-        }
-        .project-child:hover {
-            width: 80%;
-            .project-title {
-                font-size: 30px;
-            }
+            --scale: 1.55;
+            animation-name: expand-reverse;
+            animation-duration: 1s;
         }
     }
     

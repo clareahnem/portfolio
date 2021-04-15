@@ -111,4 +111,70 @@
             box-shadow: 0 0 4px #3f6670;
   }
 }
+
+@-webkit-keyframes div-expand {
+  100% {
+    width: var(--endWidth);
+  }
+}
+
+@keyframes div-expand {
+  100% {
+    width: var(--endWidth);
+  }
+}
+
+@-webkit-keyframes div-expand-reverse {
+  from {
+    width: var(--endWidth);
+  }
+  to {
+    width: var(--startWidth);
+  }
+}
+
+@keyframes div-expand-reverse {
+  from {
+    width: var(--endWidth);
+  }
+  to {
+    width: var(--startWidth);
+  }
+}
+
+@-webkit-keyframes expand {
+  100% {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+}
+
+@keyframes expand {
+  100% {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+}
+
+@-webkit-keyframes expand-reverse {
+  from {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes expand-reverse {
+  from {
+    -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 /*# sourceMappingURL=variables.css.map */
