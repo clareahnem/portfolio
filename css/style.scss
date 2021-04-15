@@ -55,7 +55,13 @@ body {
     p {
       font-size: 8px;
     }
+    
   }
+    a:hover {
+      animation-name: textglow-animation;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
   #thispage {
     color: rgb(173, 208, 233);
     text-shadow: 0 0 3px rgb(75, 139, 168);
@@ -63,7 +69,7 @@ body {
 }
 
 
-//styling headers and main
+//styling elements in main that overlaps throughout multiple pages
 main {
   grid-area: main;
   //margin-top: 3rem;

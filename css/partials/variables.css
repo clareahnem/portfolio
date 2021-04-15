@@ -37,4 +37,28 @@
     opacity: 100%;
   }
 }
+
+@-webkit-keyframes textglow-animation {
+  0% {
+    text-shadow: 0 0 4px white;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 4px white;
+  }
+}
+
+@keyframes textglow-animation {
+  0% {
+    text-shadow: 0 0 4px white;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 4px white;
+  }
+}
 /*# sourceMappingURL=variables.css.map */

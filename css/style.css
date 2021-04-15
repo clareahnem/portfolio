@@ -38,6 +38,30 @@
   }
 }
 
+@-webkit-keyframes textglow-animation {
+  0% {
+    text-shadow: 0 0 4px white;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 4px white;
+  }
+}
+
+@keyframes textglow-animation {
+  0% {
+    text-shadow: 0 0 4px white;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 4px white;
+  }
+}
+
 #home-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,12 +90,6 @@
   border-radius: 50%;
   -webkit-box-shadow: 0 0 4px #3f6670;
           box-shadow: 0 0 4px #3f6670;
-  -webkit-animation-name: fadein;
-          animation-name: fadein;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
 }
 
 @media only screen and (min-width: 600px) {
@@ -662,6 +680,15 @@ body {
 
 .topnav a p {
   font-size: 8px;
+}
+
+.topnav a:hover {
+  -webkit-animation-name: textglow-animation;
+          animation-name: textglow-animation;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .topnav #thispage {

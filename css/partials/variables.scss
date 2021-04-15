@@ -61,3 +61,16 @@ $white-glow: 0 0 3px rgb(255, 255, 255);
           opacity: 100%;
       }
   }
+
+  @keyframes textglow-animation {
+      0% {
+          text-shadow: 0 0 4px rgb(255, 255, 255);
+      }
+      50% {
+          //text-shadow: 1px 1px 5px rgb(130, 240, 248);
+          text-shadow: none;
+      }
+      100% {
+        text-shadow: 0 0 4px rgb(255, 255, 255);
+      }
+  }
