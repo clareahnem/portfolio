@@ -178,6 +178,42 @@
   }
 }
 
+@-webkit-keyframes changebkg {
+  from {
+    background: rgba(93, 109, 114, 0.8);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.575);
+  }
+}
+
+@keyframes changebkg {
+  from {
+    background: rgba(93, 109, 114, 0.8);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.575);
+  }
+}
+
+@-webkit-keyframes changebkg-reverse {
+  from {
+    background: rgba(93, 109, 114, 0.575);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.8);
+  }
+}
+
+@keyframes changebkg-reverse {
+  from {
+    background: rgba(93, 109, 114, 0.575);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.8);
+  }
+}
+
 #home-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -655,11 +691,30 @@
   .blogs-container {
     margin: 20px;
   }
+  .blogs-container .blogs-child:hover {
+    -webkit-animation: changebkg 1s forwards;
+            animation: changebkg 1s forwards;
+  }
+  .blogs-container .blogs-child:hover .blog-img {
+    --endWidth: 98%;
+    -webkit-animation: div-expand 1s forwards;
+            animation: div-expand 1s forwards;
+  }
   .blogs-container .blogs-child {
     padding: 20px;
+    -webkit-animation-name: changebkg-reverse;
+            animation-name: changebkg-reverse;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
   }
   .blogs-container .blogs-child .blog-img {
-    width: 90%;
+    width: 92%;
+    --endWidth: 98%;
+    --startWidth: 92%;
+    -webkit-animation-name: div-expand-reverse;
+            animation-name: div-expand-reverse;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
   }
   .blogs-container .blogs-child .flip {
     -webkit-box-ordinal-group: 0;
@@ -671,14 +726,6 @@
   }
   .blogs-container .blog-content .button {
     display: none;
-  }
-  .blogs-child:hover {
-    background: rgba(93, 109, 114, 0.575);
-    -webkit-box-shadow: 0 0 4px rgba(93, 109, 114, 0.575);
-            box-shadow: 0 0 4px rgba(93, 109, 114, 0.575);
-  }
-  .blogs-child:hover .blog-img {
-    width: 100%;
   }
 }
 

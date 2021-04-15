@@ -177,4 +177,40 @@
             transform: scale(1);
   }
 }
+
+@-webkit-keyframes changebkg {
+  from {
+    background: rgba(93, 109, 114, 0.8);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.575);
+  }
+}
+
+@keyframes changebkg {
+  from {
+    background: rgba(93, 109, 114, 0.8);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.575);
+  }
+}
+
+@-webkit-keyframes changebkg-reverse {
+  from {
+    background: rgba(93, 109, 114, 0.575);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.8);
+  }
+}
+
+@keyframes changebkg-reverse {
+  from {
+    background: rgba(93, 109, 114, 0.575);
+  }
+  to {
+    background: rgba(93, 109, 114, 0.8);
+  }
+}
 /*# sourceMappingURL=variables.css.map */

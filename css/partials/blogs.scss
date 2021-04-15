@@ -73,14 +73,29 @@
 }
 
 //media queries
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px)/* and (max-width: 780px)*/ {
   /* For tablets: */
   .blogs-container {
     margin: 20px;
+
+    //animation with pseudo
+    .blogs-child:hover {
+      animation: changebkg 1s forwards;
+      .blog-img {
+        --endWidth: 98%;
+        animation: div-expand 1s forwards;
+      }
+    }
     .blogs-child {
       padding: 20px;
+      animation-name: changebkg-reverse;
+      animation-duration: 1s;
       .blog-img {
-        width: 90%;
+        width: 92%;
+        --endWidth: 98%;
+        --startWidth: 92%;
+        animation-name: div-expand-reverse;
+        animation-duration: 0.5s;
       }
       .flip {
         order: -1;
@@ -93,13 +108,6 @@
       .button {
         display: none;
       }
-    }
-  }
-  //pseudo
-  .blogs-child:hover {
-    @include glowy-box($bkg-color: rgba(93, 109, 114, 0.575));
-    .blog-img {
-      width: 100%;
     }
   }
 }

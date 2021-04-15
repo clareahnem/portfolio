@@ -133,3 +133,21 @@ $white-glow: 0 0 3px rgb(255, 255, 255);
           transform: scale(1);
       }
   }
+
+  @keyframes changebkg {
+      from {
+          background: $div-background;
+      }
+      to {
+        background: rgba(93, 109, 114, 0.575);
+      }
+  }
+
+  @keyframes changebkg-reverse {
+      from {
+        background: rgba(93, 109, 114, 0.575);
+      }
+      to {
+        background: $div-background;
+      }
+  }
