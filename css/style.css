@@ -654,10 +654,19 @@
           flex-flow: row wrap;
 }
 
+.blogs-container .blogs-child:hover {
+  -webkit-animation: changebkg 1s forwards;
+          animation: changebkg 1s forwards;
+}
+
 .blogs-container .blogs-child {
   background: rgba(93, 109, 114, 0.8);
   -webkit-box-shadow: 0 0 4px rgba(93, 109, 114, 0.8);
           box-shadow: 0 0 4px rgba(93, 109, 114, 0.8);
+  -webkit-animation-name: changebkg-reverse;
+          animation-name: changebkg-reverse;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   margin: 10px 5px;
   padding: 10px;
 }
@@ -691,10 +700,6 @@
   .blogs-container {
     margin: 20px;
   }
-  .blogs-container .blogs-child:hover {
-    -webkit-animation: changebkg 1s forwards;
-            animation: changebkg 1s forwards;
-  }
   .blogs-container .blogs-child:hover .blog-img {
     --endWidth: 98%;
     -webkit-animation: div-expand 1s forwards;
@@ -702,10 +707,6 @@
   }
   .blogs-container .blogs-child {
     padding: 20px;
-    -webkit-animation-name: changebkg-reverse;
-            animation-name: changebkg-reverse;
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
   }
   .blogs-container .blogs-child .blog-img {
     width: 92%;
@@ -750,10 +751,14 @@
         align-self: flex-end;
   }
   .blogs-container .blogs-child:hover {
-    width: 100%;
+    --endWidth: 100%;
+    -webkit-animation: div-expand 1.3s forwards;
+            animation: div-expand 1.3s forwards;
   }
   .blogs-container .blogs-child:hover .photo {
-    width: 65%;
+    --endWidth: 65%;
+    -webkit-animation: div-expand 1.3s forwards;
+            animation: div-expand 1.3s forwards;
   }
   .blogs-container .blogs-child:hover .photo .blog-img {
     height: 300px;
@@ -767,6 +772,14 @@
   }
   .blogs-container .blogs-child:hover .blog-header {
     width: 100%;
+  }
+  .blogs-container .blogs-child {
+    --endWidth: 100%;
+    --startWidth: 75%;
+    -webkit-animation-name: div-expand-reverse;
+            animation-name: div-expand-reverse;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
   }
 }
 

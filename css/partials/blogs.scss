@@ -50,8 +50,13 @@
 .blogs-container {
   display: flex;
   flex-flow: row wrap;
+  .blogs-child:hover {
+    animation: changebkg 1s forwards;
+  }
   .blogs-child {
     @include glowy-box($bkg-color: $div-background);
+    animation-name: changebkg-reverse;
+    animation-duration: 1s;
     margin: 10px 5px;
     padding: 10px;
   }
@@ -80,7 +85,6 @@
 
     //animation with pseudo
     .blogs-child:hover {
-      animation: changebkg 1s forwards;
       .blog-img {
         --endWidth: 98%;
         animation: div-expand 1s forwards;
@@ -88,8 +92,6 @@
     }
     .blogs-child {
       padding: 20px;
-      animation-name: changebkg-reverse;
-      animation-duration: 1s;
       .blog-img {
         width: 92%;
         --endWidth: 98%;
@@ -125,9 +127,11 @@
         align-self: flex-end;
       }
       .blogs-child:hover {
-        width: 100%;
+        --endWidth: 100%;
+        animation: div-expand 1.3s forwards;
         .photo {
-            width: 65%;
+            --endWidth: 65%;
+            animation: div-expand 1.3s forwards;
             .blog-img {
                 height: 300px;
                 object-fit: cover;
@@ -139,6 +143,12 @@
         .blog-header {
             width: 100%;
         }
+      }
+      .blogs-child {
+        --endWidth: 100%;
+        --startWidth: 75%;
+        animation-name: div-expand-reverse;
+        animation-duration: 1s;
       }
     }
 }
