@@ -70,7 +70,7 @@ body {
 }
 
 
-//styling elements in main that overlaps throughout multiple pages
+//styling elements in main tag that overlaps throughout multiple pages
 main {
   grid-area: main;
   //margin-top: 3rem;
@@ -92,8 +92,16 @@ main {
       animation-duration: 3s;
       animation-timing-function: linear;
   }
-  button:hover {
+  .white-button:hover {
     animation: button-expand 1.5s forwards;
+  }
+  .white-button {
+    @include white-button;
+    a {
+      text-decoration: none;
+      font-family: $smallfont;
+      color: $text-color;
+    }
   }
 }
 
@@ -123,7 +131,7 @@ footer {
   }
   a:hover {
     animation-name: changecolor;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
   }

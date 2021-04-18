@@ -614,7 +614,7 @@
   border: none;
   font-family: "Playfair Display", serif;
   padding: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .blogs-main .blog-content a {
@@ -624,24 +624,6 @@
 
 .blogs-main .back-top {
   text-align: center;
-}
-
-.blogs-main .back-top button {
-  line-height: 2.5rem;
-  margin: 2.5rem 0;
-  padding: 5px 10px;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 14px;
-  border: none;
-  background: white;
-  -webkit-box-shadow: 0 0 4px white;
-          box-shadow: 0 0 4px white;
-}
-
-.blogs-main .back-top button a {
-  text-decoration: none;
-  font-family: "Playfair Display", serif;
-  color: #596b70;
 }
 
 .blogs-container {
@@ -955,9 +937,27 @@ main #profile-img {
           animation-timing-function: linear;
 }
 
-main button:hover {
+main .white-button:hover {
   -webkit-animation: button-expand 1.5s forwards;
           animation: button-expand 1.5s forwards;
+}
+
+main .white-button {
+  line-height: 2.5rem;
+  margin: 2.5rem 0;
+  padding: 5px 10px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14px;
+  border: none;
+  background: white;
+  -webkit-box-shadow: 0 0 4px white;
+          box-shadow: 0 0 4px white;
+}
+
+main .white-button a {
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  color: #596b70;
 }
 
 footer {
@@ -991,8 +991,8 @@ footer a {
 footer a:hover {
   -webkit-animation-name: changecolor;
           animation-name: changecolor;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-fill-mode: forwards;
