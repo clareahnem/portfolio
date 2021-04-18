@@ -617,7 +617,7 @@
   font-size: 12px;
 }
 
-.blogs-main .blog-content a {
+.blogs-main .blog-content .button a {
   color: white;
   text-decoration: none;
 }
@@ -736,16 +736,13 @@
     --endWidth: 100%;
     -webkit-animation: div-expand 1.3s forwards;
             animation: div-expand 1.3s forwards;
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
   }
   .blogs-container .blogs-child:hover .photo {
     --endWidth: 65%;
     -webkit-animation: div-expand 1.3s forwards;
             animation: div-expand 1.3s forwards;
-  }
-  .blogs-container .blogs-child:hover .photo .blog-img {
-    height: 300px;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   .blogs-container .blogs-child:hover .flip {
     -webkit-box-ordinal-group: 1;
@@ -762,6 +759,11 @@
             animation-name: div-expand-reverse;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
+  }
+  .blogs-container .blogs-child .blog-img {
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
