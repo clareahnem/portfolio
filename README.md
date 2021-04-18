@@ -55,6 +55,8 @@ As for the main section of the page, each of the 5 HTML pages contain the follow
     -organisation and planning
 
 
-# sitemap
+# sitemap  
+
+![sitemap diagram of Clare's Portfolio](images/Portfolio-sitemap.png "Visual Sitemap of Clare's Portfolio")
 
 # screenshots
