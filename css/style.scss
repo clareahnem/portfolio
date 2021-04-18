@@ -73,8 +73,6 @@ body {
 //styling elements in main tag that overlaps throughout multiple pages
 main {
   grid-area: main;
-  //margin-top: 3rem;
-  //height: calc(100vh-10rem-2.7rem);
   p {
     @include regular-text;
   }
@@ -82,17 +80,20 @@ main {
     font-family: $largefont;
     font-size: 40px;
     text-align: center;
+    //keyframe for title
     @include glowy-text;
     animation-name: fadein-movedown;
     animation-duration: 1.5s;
     animation-timing-function: ease;
   }
   #profile-img {
+    //keyframe for profile image
       animation-name: fadein;
       animation-duration: 3s;
       animation-timing-function: linear;
   }
   .white-button:hover {
+    //keyframe for buttons
     animation: button-expand 1.5s forwards;
   }
   .white-button {
@@ -112,7 +113,6 @@ footer {
   text-align: center;
   font-family: $largefont;
   width: 100vw;
-  //height: 10rem;
   background: $transparent-color;
   margin-bottom: 0;
   padding-bottom: 0;
