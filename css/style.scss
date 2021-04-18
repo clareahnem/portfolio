@@ -73,6 +73,7 @@ body {
 //styling elements in main tag that overlaps throughout multiple pages
 main {
   grid-area: main;
+  margin: 2rem 10px 10px 10px;
   p {
     @include regular-text;
   }

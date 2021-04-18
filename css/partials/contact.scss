@@ -1,41 +1,39 @@
 //styling for contacts page
-.contact-main {
-    margin: 2rem 10px 10px 10px;
-    .contact-description {
-        margin: 10px 10vw;
+
+.contact-description {
+  margin: 10px 10vw;
+}
+form {
+  margin: 0 auto;
+  max-width: 400px;
+  label {
+    display: block;
+    @include regular-text;
+  }
+  input {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    background: $div-background;
+  }
+  textarea {
+    display: block;
+    width: 100%;
+    background: $div-background;
+    color: rgb(255, 255, 255);
+  }
+  ::placeholder {
+    color: rgba(101, 216, 255, 0.9);
+  }
+  .sendbutton {
+    text-align: center;
+    button {
+      @include glowy-box;
+      font-family: $smallfont;
+      line-height: 2;
+      padding: 3px 10px;
+      margin-top: 10px;
+      border: none;
     }
-    form {
-        margin: 0 auto;
-        max-width: 400px;
-        label {
-            display: block;
-            @include regular-text;
-        }
-        input {
-            display: block;
-            width: 100%;
-            line-height: 1.5;
-            background: $div-background;
-        }
-        textarea {
-            display: block;
-            width: 100%;
-            background: $div-background;
-            color: rgb(255, 255, 255);
-        }
-        ::placeholder {
-            color: rgba(101, 216, 255, 0.9);
-        }
-        .sendbutton {
-            text-align: center;
-            button {
-                @include glowy-box;
-                font-family: $smallfont;
-                line-height: 2;
-                padding: 3px 10px;
-                margin-top: 10px;
-                border: none;
-            }
-        }
-    }
+  }
 }
