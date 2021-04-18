@@ -139,7 +139,3 @@ After I was satisfied with most of the styling of my pages, I went on to add key
 ### Accessibility features
 Along with adding visual styling on elements to make the page easier to navigate, I also added attributes in some HTML tags to increase accessibility for those using screen readers. For example, in the `<footer>` link icons, I added a `title` attribute so that when the icon is in focus it will give you a guide on where the link will jump to. 
 ![adding accessibility features to footer](./images/Screenshots/16-04-SSFooter.jpg)
-
-
-
-
