@@ -148,7 +148,7 @@ For the desktop view of the project page, I was not happy with how the smaller b
 ###  Adding Keyframes
 After I was satisfied with most of the styling of my pages, I went on to add keyframes to multiple elements throughout the website. For example, I created a keyframe for icons in the navigation bar to "glow" when hovered over, and made the `:hover` pseudo transitions smoother by incorporating the changes into keyframe animations. This was more time-consuming than I initialluy expected, since the Cascading trait of CSS became very important in how the keyframe displays its effects. I was also not considering the fact that I had to apply animation for elements to transition back to its original state after unhovering, which added extra time to work on one element's animation.  
 
-![creating keyframes in variable.scss](./images/Screenshots/15-04-SSkeyframes.jpg)
+![creating keyframes in variable.scss](./images/Screenshots/15-04-SSKeyframes.jpg)
 
 ### Accessibility features
 Along with adding visual styling on elements to make the page easier to navigate, I also added attributes in some HTML tags to increase accessibility for those using screen readers. For example, in the `<footer>` link icons, I added a `title` attribute so that when the icon is in focus it will give you a guide on where the link will jump to.  
