@@ -56,6 +56,8 @@ This page includes a simple form for page viewers to contact myself directly. Th
     - for icons
 - draw.io
     - For visual sitemap
+- xml sitemaps.com
+    - For sitemap.xml file
 - Netlify
     - For deployment
 - Trello
