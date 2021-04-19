@@ -64,7 +64,7 @@ This page includes a simple form for page viewers to contact myself directly. Th
 
 # Sitemap  
 
-![sitemap diagram of Clare's Portfolio](./images/Screenshots/Portfolio_sitemap.jpeg)
+![sitemap diagram of Clare's Portfolio](./images/Screenshots/Portfolio_sitemap.jpg)
 
 # Progress rundown with screenshots
 ### Planning
