@@ -158,3 +158,8 @@ After I was satisfied with most of the styling of my pages, I went on to add key
 Along with adding visual styling on elements to make the page easier to navigate, I also added attributes in some HTML tags to increase accessibility for those using screen readers. For example, in the `<footer>` link icons, I added a `title` attribute so that when the icon is in focus it will give you a guide on where the link will jump to.  
 
 ![adding accessibility features to footer](./images/Screenshots/16-04-SSFooter.jpg)
+
+### Changing footer design
+in the final refinement process I decided to change the styling of footers for Large Viewports. Since the previous design took 10rem height for footers with small logos, it was wasting screen space. Top change this, I added media queries for footers so that the height of the footers are 5rem instead of 10rem, and added flexbox to contents so that they align horizontally instead of being in a `display: block;` like it was. The design overall look more simplified, as there is now less attention being led towards the footer and more towards the `<main>` section of the page.
+
+![making changes to footer style in desktop view](./images/Screenshots/19-04-SSnewFooter.jpg)
