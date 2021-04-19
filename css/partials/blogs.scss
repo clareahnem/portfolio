@@ -37,7 +37,7 @@
   }
 }
 
-//adding flexbox to blog posts
+//adding flexbox and animation to blog posts
 .blogs-container {
   display: flex;
   flex-flow: row wrap;
@@ -69,7 +69,7 @@
 }
 
 //media queries
-@media only screen and (min-width: 600px)/* and (max-width: 780px)*/ {
+@media only screen and (min-width: 600px) {
   /* For tablets: */
   .blogs-container {
     margin: 20px;
@@ -119,24 +119,24 @@
       }
       .blogs-child:hover {
         --endWidth: 100%;
-        animation: div-expand 1.3s forwards;
+        animation: div-expand 1.3s forwards, changebkg 1.3s forwards;
         transform: scaleY(1);
         .photo {
-            --endWidth: 65%;
-            animation: div-expand 1.3s forwards;
+          --endWidth: 65%;
+          animation: div-expand 1.3s forwards;
         }
         .flip {
-            order: 0;
+          order: 0;
         }
         .blog-header {
-            width: 100%;
+          width: 100%;
         }
       }
       .blogs-child {
         //keyframe animation when unhovered
         --endWidth: 100%;
         --startWidth: 75%;
-        animation-name: div-expand-reverse;
+        animation-name: div-expand-reverse, changebkg-reverse;
         animation-duration: 1s;
         .blog-img {
           height: 300px;

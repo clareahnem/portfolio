@@ -730,8 +730,8 @@
   }
   .blogs-container .blogs-child:hover {
     --endWidth: 100%;
-    -webkit-animation: div-expand 1.3s forwards;
-            animation: div-expand 1.3s forwards;
+    -webkit-animation: div-expand 1.3s forwards, changebkg 1.3s forwards;
+            animation: div-expand 1.3s forwards, changebkg 1.3s forwards;
     -webkit-transform: scaleY(1);
             transform: scaleY(1);
   }
@@ -751,8 +751,8 @@
   .blogs-container .blogs-child {
     --endWidth: 100%;
     --startWidth: 75%;
-    -webkit-animation-name: div-expand-reverse;
-            animation-name: div-expand-reverse;
+    -webkit-animation-name: div-expand-reverse, changebkg-reverse;
+            animation-name: div-expand-reverse, changebkg-reverse;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
   }
