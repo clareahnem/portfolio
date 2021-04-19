@@ -1111,9 +1111,54 @@ footer #copyright {
   body {
     background-size: 100% 100vh;
     background-repeat: no-repeat;
+    -ms-grid-rows: 2.7rem 1fr 5rem;
+        grid-template-rows: 2.7rem 1fr 5rem;
   }
   body .title {
     font-size: 60px;
+  }
+  body footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body footer .find {
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+  }
+  body footer .contacts {
+    -webkit-box-flex: 3;
+        -ms-flex-positive: 3;
+            flex-grow: 3;
+    padding-bottom: 0;
+    display: inline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer .contacts a {
+    padding: 0 20px;
+    margin-left: 100px;
+  }
+  body footer #copyright {
+    -ms-flex-negative: auto;
+        flex-shrink: auto;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }
 /*# sourceMappingURL=style.css.map */
