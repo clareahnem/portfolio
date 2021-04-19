@@ -92,10 +92,12 @@ After creating HTML template for Home page, I added the main contents of about m
 #### individual blog page that ceased to exist
 
 Towards the start of the creating process, I had initially planned to create separate HTML pages for inividual blog posts. Each page would contain a link to "previous" and "next" most recent blog posts as well as a button to return to the blogs page where all blog contents were summarised onto one page. This structure was later discarded when I decided on using the `<display>` tag to "embed" blog content within the main Blog HTML page. 
+
 ![after completing basic HTML of blog post (Tablet)](./images/Screenshots/12-04-SSBlog2.jpg)
 
 ### Styling Main components with SCSS/CSS  
 The next day, I began gathering inspirations for fonts, color schemes, backgrounds...etc to setlle on the aesthetics of my webpage. After making these decisions, I created css and scss pages to style my website. I began styling from the main components i.e. navigation, footers, background, and imported the fonts I would use. I also added text-alignments and basic positioning to some elements so that I can decide on the font sizes and weights. These basic stylings were added to style.scss, which is my main scss file as they were to be used for styling multiple HTML pages.
+
 ![after completing basic CSS of Home page (Mobile)](./images/Screenshots/13-04-SSHome.jpg)
 
 ![after completing basic CSS of Home page (Tablet)](./images/Screenshots/13-04-SSHome3.jpg)
@@ -111,7 +113,9 @@ After doing so I worked on styling the rest of HTML pages, adding extra html tag
 
 ##### about me page
 ![after completing basic CSS of About Me page (Mobile)](./images/Screenshots/14-04-SSAbout1.jpg)
+
 ![after completing basic CSS of About Me page (Tablet)](./images/Screenshots/14-04-SSAbout2.png)
+
 ![after completing basic CSS of About Me page (Desktop)](./images/Screenshots/14-04-SSAbout3.jpg)
 
 ### Changes to navigation and footer
@@ -119,23 +123,31 @@ During the styling process I decided to change the components in Navigation and 
 
 ### adding pseudo classes
 In order to make the webpage more interactive, I added several `:hover` pseudo classes to my web pages. These were mainly assigned to Desktop views as mobile and tablet screen audiences will not be able to "hover" over elements without a mouse console. Since my focus was to make the end result of hovers visually appealing, I decided to complete the pseudo classes before adding keyframes to it. 
-##### Blogs page
+##### Blogs page  
+
 ![after completing basic CSS of Blogs page (Desktop)](./images/Screenshots/14-04-SSBlogs1.jpg)
 
-##### Projects Page
+##### Projects Page  
+
 ![after completing basic CSS of projects page (Mobile)](./images/Screenshots/14-04-SSProjects1.jpg)
+
 ![after completing basic CSS of projects page (Tablet)](./images/Screenshots/14-04-SSProjects2.jpg)
-![after completing basic CSS of projects page (Desktop)](./images/Screenshots/14-04-SSPeojects3.jpg)
+
+![after completing basic CSS of projects page (Desktop)](./images/Screenshots/14-04-SSPeojects3.jpg)  
+
 
 For the desktop view of the project page, I was not happy with how the smaller boxes (i.e. project `<div>` that was not hovered) had different heights. I made it my task to fix this later on.
 
-##### Contacts Page
+##### Contacts Page  
+
 ![after completing basic CSS of contacts page (Desktop)](./images/Screenshots/16-04-SSContact.jpg)
 
 ###  Adding Keyframes
-After I was satisfied with most of the styling of my pages, I went on to add keyframes to multiple elements throughout the website. For example, I created a keyframe for icons in the navigation bar to "glow" when hovered over, and made the `:hover` pseudo transitions smoother by incorporating the changes into keyframe animations. This was more time-consuming than I initialluy expected, since the Cascading trait of CSS became very important in how the keyframe displays its effects. I was also not considering the fact that I had to apply animation for elements to transition back to its original state after unhovering, which added extra time to work on one element's animation.
+After I was satisfied with most of the styling of my pages, I went on to add keyframes to multiple elements throughout the website. For example, I created a keyframe for icons in the navigation bar to "glow" when hovered over, and made the `:hover` pseudo transitions smoother by incorporating the changes into keyframe animations. This was more time-consuming than I initialluy expected, since the Cascading trait of CSS became very important in how the keyframe displays its effects. I was also not considering the fact that I had to apply animation for elements to transition back to its original state after unhovering, which added extra time to work on one element's animation.  
+
 ![creating keyframes in variable.scss](./images/Screenshots/15-04-SSkeyframes.jpg)
 
 ### Accessibility features
-Along with adding visual styling on elements to make the page easier to navigate, I also added attributes in some HTML tags to increase accessibility for those using screen readers. For example, in the `<footer>` link icons, I added a `title` attribute so that when the icon is in focus it will give you a guide on where the link will jump to. 
+Along with adding visual styling on elements to make the page easier to navigate, I also added attributes in some HTML tags to increase accessibility for those using screen readers. For example, in the `<footer>` link icons, I added a `title` attribute so that when the icon is in focus it will give you a guide on where the link will jump to.  
+
 ![adding accessibility features to footer](./images/Screenshots/16-04-SSFooter.jpg)
