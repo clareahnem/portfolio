@@ -289,10 +289,6 @@
   text-align: center;
 }
 
-#about-main {
-  margin: 3rem 10px 10px 10px;
-}
-
 #resume {
   text-align: center;
   margin: 20px 0;
@@ -445,10 +441,6 @@
   }
 }
 
-.project-main {
-  margin: 2rem 10px 10px 10px;
-}
-
 .project-main header {
   margin: 0 0 10px 0;
 }
@@ -579,10 +571,6 @@
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
   }
-}
-
-.blogs-main {
-  margin: 2rem 10px 10px 10px;
 }
 
 .blogs-main h2 {
@@ -767,60 +755,57 @@
   }
 }
 
-.contact-main {
-  margin: 2rem 10px 10px 10px;
-}
-
-.contact-main .contact-description {
+.contact-description {
   margin: 10px 10vw;
 }
 
-.contact-main form {
+form {
   margin: 0 auto;
-  max-width: 400px;
+  padding: 0 20px 20px 20px;
+  max-width: 500px;
 }
 
-.contact-main form label {
+form label {
   display: block;
   color: #596b70;
   line-height: 1.5;
 }
 
-.contact-main form input {
+form input {
   display: block;
   width: 100%;
   line-height: 1.5;
   background: rgba(93, 109, 114, 0.8);
 }
 
-.contact-main form textarea {
+form textarea {
   display: block;
   width: 100%;
   background: rgba(93, 109, 114, 0.8);
   color: white;
 }
 
-.contact-main form ::-webkit-input-placeholder {
+form ::-webkit-input-placeholder {
   color: rgba(101, 216, 255, 0.9);
 }
 
-.contact-main form :-ms-input-placeholder {
+form :-ms-input-placeholder {
   color: rgba(101, 216, 255, 0.9);
 }
 
-.contact-main form ::-ms-input-placeholder {
+form ::-ms-input-placeholder {
   color: rgba(101, 216, 255, 0.9);
 }
 
-.contact-main form ::placeholder {
+form ::placeholder {
   color: rgba(101, 216, 255, 0.9);
 }
 
-.contact-main form .sendbutton {
+form .sendbutton {
   text-align: center;
 }
 
-.contact-main form .sendbutton button {
+form .sendbutton button {
   background: white;
   -webkit-box-shadow: 0 0 4px white;
           box-shadow: 0 0 4px white;
@@ -909,6 +894,7 @@ main {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: main;
+  margin: 2rem 10px 10px 10px;
 }
 
 main p {
