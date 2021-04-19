@@ -4,10 +4,6 @@
     header {
         margin: 0 0 10px 0;
     }
-    .project-title {
-        @include glowy-text;
-        font-size: 18px;
-    }
 }
 
 //flexbox for projects
@@ -47,7 +43,25 @@
     }
     .prj-text {
         text-align: center;
+        .project-title {
+                // @include glowy-text;
+                // font-size: 18px;
+                // text-decoration: none;
+                a {
+                    @include glowy-text;
+                    font-size: 18px;
+                    text-decoration: none;
+                }
+        }
     }
+}
+.project-child:hover {
+    .project-title {
+        a {
+        text-decoration: underline;
+        }
+    }
+    
 }
 
 //media queries
@@ -74,28 +88,31 @@
         align-items: center;
         
         .project-child:hover {
-            --endWidth: 80%;
+            --endWidth: 70%;
             animation: div-expand 1s forwards;
             animation-timing-function: ease-out;
             .project-title {
-                --scale: 1.55;
+                --scale: 1.45;
                 animation: expand 1s forwards;
                 animation-timing-function: ease-out;
+                
             }
         }
         .project-child {
-            min-height: 120px;
-            --endWidth: 80%;
+            min-height: 142px;
+            --endWidth: 70%;
             --startWidth: 25%;
             animation-name: div-expand-reverse;
             animation-duration: 1s;
-        }
-        .project-title {
-            font-size: 14px;
-            --scale: 1.55;
+            .project-title {
+            --scale: 1.45;
             animation-name: expand-reverse;
             animation-duration: 1s;
-        }
+            font-size: 13px;
+                a {
+                    font-size: 13px;
+                }
+            }
+        }   
     }
-    
 }

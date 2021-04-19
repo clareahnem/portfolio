@@ -445,12 +445,6 @@
   margin: 0 0 10px 0;
 }
 
-.project-main .project-title {
-  color: white;
-  text-shadow: 0 0 4px #1b94b6;
-  font-size: 18px;
-}
-
 .project-container {
   margin: 0 10px;
   display: -webkit-box;
@@ -509,6 +503,17 @@
   text-align: center;
 }
 
+.single-prj .prj-text .project-title a {
+  color: white;
+  text-shadow: 0 0 4px #1b94b6;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.project-child:hover .project-title a {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .project-child:hover {
@@ -541,35 +546,38 @@
             align-items: center;
   }
   .project-container .project-child:hover {
-    --endWidth: 80%;
+    --endWidth: 70%;
     -webkit-animation: div-expand 1s forwards;
             animation: div-expand 1s forwards;
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
   .project-container .project-child:hover .project-title {
-    --scale: 1.55;
+    --scale: 1.45;
     -webkit-animation: expand 1s forwards;
             animation: expand 1s forwards;
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
   .project-container .project-child {
-    min-height: 120px;
-    --endWidth: 80%;
+    min-height: 142px;
+    --endWidth: 70%;
     --startWidth: 25%;
     -webkit-animation-name: div-expand-reverse;
             animation-name: div-expand-reverse;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
   }
-  .project-container .project-title {
-    font-size: 14px;
-    --scale: 1.55;
+  .project-container .project-child .project-title {
+    --scale: 1.45;
     -webkit-animation-name: expand-reverse;
             animation-name: expand-reverse;
     -webkit-animation-duration: 1s;
             animation-duration: 1s;
+    font-size: 13px;
+  }
+  .project-container .project-child .project-title a {
+    font-size: 13px;
   }
 }
 
