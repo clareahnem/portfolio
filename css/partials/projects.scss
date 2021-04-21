@@ -44,9 +44,6 @@
     .prj-text {
         text-align: center;
         .project-title {
-                // @include glowy-text;
-                // font-size: 18px;
-                // text-decoration: none;
                 a {
                     @include glowy-text;
                     font-size: 18px;
