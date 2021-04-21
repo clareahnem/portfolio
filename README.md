@@ -175,11 +175,11 @@ In the final refinement process I decided to change the styling of footers for L
 ![making changes to footer style in desktop view](./images/Screenshots/19-04-SSnewFooter.jpg)
 
 ### Making changes after Presentation Day
-After seeing the presentations by class cohort, I decided to make a few small changes to my website. This included adding `<input type="text">` in the contact form to add sender's name, so that I know who has sent me a message. 
+After seeing the presentations by class cohort, I decided to make a few small changes to my website. This included adding `<input type="text">` in the contact form to add sender's name, so that I know who has sent me a message. Furthermore, I changed the title and the text below it in the contact page. The new text had a more confident approach, leaving a more professional impression of myself for potential business partners.
 
-![adding input section for your name in contact form](./images/Screenshots/21-04-SScontact.png)
+![adding input section for your name in contact form](./images/Screenshots/21-04SScontact.jpg)
 
 I also added a captcha feature on my email form through formspree website, in order to prevent spam emails from being sent. 
-![view of formspree captcha users will see after email submission](./images/Screenshots/21-04-SSformspree.png)
+![view of formspree captcha users will see after email submission](./images/Screenshots/21-04-SSformspree.jpg)
 
 Another thing I changed was the content of my resume. I initially had written in my contact details including my phone number, but after hearing multiple people in class talk about privacy matters, I was reminded to remove them from my resume. 
