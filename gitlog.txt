@@ -1,0 +1,820 @@
+commit a6a046b83b2fa704584f37cb4c5fdd0f90704b58
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 16:36:13 2021 +1000
+
+    added powerpoint pdf to directory
+
+commit 62653e78eae6ef13229dd7225bba75e5a279b7e4
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 15:58:15 2021 +1000
+
+    organised files in new folders
+
+commit fbdc6717cec10a108fd86aaf4207f2cbe4396db2
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 15:30:46 2021 +1000
+
+    updated README
+
+commit 941d4268c091c0bc02b324ebcc6cb9bc3229683a
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 15:13:29 2021 +1000
+
+    cleaned up scss files and gave new sri tags for html pages
+
+commit f888b6b3dce3665a55f5cc0cea1e3d245107880b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 15:09:20 2021 +1000
+
+    changed text in contact.html and added new sri
+
+commit cca49b70c3cb4159ac55994922f075a1a79ed668
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 14:52:06 2021 +1000
+
+    added new image, changed writings in contact page
+
+commit 600b043021e7509dc08656f7bf5a5c713815b5d8
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 12:26:31 2021 +1000
+
+    new integrity hash
+
+commit dc52828294489392ce0bf76f0c6abbd01b4ea34a
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 21 12:24:30 2021 +1000
+
+    Removed phone number and address from resume pdf and added capcha and name input to contact form
+
+commit 6dec4cbd7db2a07067b0d8db8360c7853a362e97
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 21:30:24 2021 +1000
+
+    updated README
+
+commit 314bcb2749858b889beb860ac70421e33f0141ac
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 21:28:53 2021 +1000
+
+    uploaded sitemap.xml onto root directory of this file
+
+commit 51ba6759e34a19e715722e65cf3f97818a895d77
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 21:21:41 2021 +1000
+
+    edited sitemap
+
+commit d71fcf4d78c2aff17d93ea815d68912e975556e1
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 16:59:51 2021 +1000
+
+    updated README with new screenshot
+
+commit 831134b2b4e09537943759de7e2cdb6985efdced
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 16:51:38 2021 +1000
+
+    changed formatting of footers for Desktop and added new SRI hash
+
+commit 23c4deece7fa20d1e3d5fdaa10cfc11332f0f966
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 14:18:04 2021 +1000
+
+    fixed typos and structures of README
+
+commit 1077f6dc9b8b336515ac123df5a30e12d01e680d
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 14:07:11 2021 +1000
+
+    corrected relative path error for image in readme
+
+commit 5c4dda6ce2533913ad503dfeb9da86c66207f77a
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 13:04:32 2021 +1000
+
+    updated Readme
+
+commit 1678e19537faf8af12aa6eed2d508803a3ff7b5b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 13:01:38 2021 +1000
+
+    added SRIs
+
+commit a022bf4b3c0c1dbdfdaa30fedc23201bfc36c8ec
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 12:33:35 2021 +1000
+
+    added scroll behaviour to HTML
+
+commit 5a059297175ef35180f1c7a48c48396256a928a4
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 12:07:07 2021 +1000
+
+    updated ReadMe
+
+commit 32bb7b78054ccbc9c652bff16b12a5755dac24cc
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 11:54:26 2021 +1000
+
+    changed styling of send button in contacts page
+
+commit 84db70caa280e1848281009b0986f694a2081da0
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 11:42:53 2021 +1000
+
+    adjusted project animation for desktop
+
+commit 2cc1330f10a951dade89df512ca685d48b9408cb
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 11:28:39 2021 +1000
+
+    adjusted project child margins for desktop
+
+commit b4474dcc7b217f86993f756c72221008a5cbbdc3
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 10:02:21 2021 +1000
+
+    changed paddings for contacts page
+
+commit 793cedbc57ebb219bd6dd18da46a8e7aa82d34ed
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 09:52:28 2021 +1000
+
+    adjusted margin for main tag
+
+commit d39ce642efb2c15b4409aef9288eccc047b49172
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 09:36:22 2021 +1000
+
+    updfated resume
+
+commit 0c6d78c1b8d942fe54db03f9d086d9f8131d5873
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 00:25:07 2021 +1000
+
+    redoing last commit
+
+commit 8d57b084764059a91c2fe06b54c630d2876941e7
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 19 00:24:29 2021 +1000
+
+    added progress section with screenshots to README
+
+commit 91fa15cd270f86b1d662799fd37f1838a9949dda
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 22:28:25 2021 +1000
+
+    corrected markdown formatting on README
+
+commit 66dc4ab10a5de9a9af4cec935ac19a2d1951f0dd
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 22:16:39 2021 +1000
+
+    added all screenshots for README
+
+commit 3ecb4ecc592ed539a869c4c0f7208050a90491c1
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 21:51:19 2021 +1000
+
+    added image of sitemap diagram to README
+
+commit 80597be016ddac19f0fbc453cbe4df6d4f19c52b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 21:00:58 2021 +1000
+
+    updated README
+
+commit 01404bd331300dddb1f8ddf5b4a521037f44ee2b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 14:25:41 2021 +1000
+
+    updated resume
+
+commit c93e474612fe78029ecc15c648085c3dd7c6de73
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 14:14:21 2021 +1000
+
+    deleted separate blog post html pages
+
+commit 3832a325ae75ea4f40a23787810b121cfa9b2637
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 14:08:15 2021 +1000
+
+    final keyframe touches for blogs page desktop
+
+commit 14a6c4916db914d8ca367fc017aeb95fb3445b6c
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 18 13:35:17 2021 +1000
+
+    added resume folder and liked to about me page
+
+commit a90c163ae5c58b34ae997b88a8250035885fee8d
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sat Apr 17 14:45:59 2021 +1000
+
+    added keyframes to blogs div desktop
+
+commit fbd5631db8178b1bf5dd83a665892d96fbd3b050
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sat Apr 17 14:03:28 2021 +1000
+
+    added attributes in text input so placeholder will disappear on click
+
+commit 81f9d1aca6704b4245e63746b1f284a26f5fe423
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 17:14:19 2021 +1000
+
+    added keyframes to blogs tablet view
+
+commit 33569670ce270e755adca43c383474ca3c69ce60
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 16:39:33 2021 +1000
+
+    added keyframes to project section
+
+commit e2f5322807b20fac3391daf6475745eed548083b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 15:47:58 2021 +1000
+
+    added keyframes to button elements
+
+commit 4dfe7d27ef35c258c212e95593d1139e9b4771be
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 15:23:48 2021 +1000
+
+    added keyframes to skills icon
+
+commit 6a75b09026a465bae2e87ee7d2e159230f5f1306
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 14:32:58 2021 +1000
+
+    added keyframe to footer icons and added text attribute
+
+commit acb6e3d0af2ef89279ee26081637d3b1e260a415
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 14:21:53 2021 +1000
+
+    changed footer link target so it opens in a new tab
+
+commit 7a476d2329ccd09864801903bad8166dd81d9791
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 14:18:42 2021 +1000
+
+    added keyframes for nav icons
+
+commit e239886340d59cca4aaf26b3b2604131df0d5940
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 13:28:03 2021 +1000
+
+    added keyframes for profile-img
+
+commit b67bad07b7d4e57281435f3b1e6ef1c62395744c
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 13:25:23 2021 +1000
+
+    added keyframes for title
+
+commit 44f1f57f1f3074a73aa05dbbe75bda91221fddb2
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 00:47:00 2021 +1000
+
+    removed reference borders on contact page
+
+commit b0b55aca185da9511960dc2232eb56b53337c20a
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Thu Apr 15 00:45:43 2021 +1000
+
+    styled contact page with media queries
+
+commit 928bc582d0470f55f05797403e238dbb72b18c0d
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 23:38:34 2021 +1000
+
+    wrote basic html for contact page and linked to oter html pages
+
+commit fb8dd2eb5f129cc2895506e28345a3cd249743a2
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 23:24:03 2021 +1000
+
+    created html and scss for contacts page and liked to style.scss
+
+commit 7c5d2f4c3b06a134135a59b7602cbfef14fe7169
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 22:16:45 2021 +1000
+
+    changed title font size for desktop
+
+commit aa256b498bbabe26d0e449ee1313347014c771f6
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 22:12:51 2021 +1000
+
+    changed margins on projects page desktop ver
+
+commit 8c4846fbaa960ef8da31eed8231f1398ba927952
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 21:56:06 2021 +1000
+
+    moved contact section from footer to nav
+
+commit 9b04fabd3b0b3951885a0ad164f06713cbd1a94e
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 21:28:28 2021 +1000
+
+    moved individual blog html to new directory. may delete later
+
+commit 23de9e46e71834fb9f0e90013df1d910068627d1
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 21:26:05 2021 +1000
+
+    added media queries and pseudo for desktop blogs.html
+
+commit d5cad0f37f40fc040976f705ab1cd764d5b1a75e
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 19:33:43 2021 +1000
+
+    flexbox layout for blog post tablet ver
+
+commit ca79322357eefed079b861d91f21ca18a82cc014
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 18:40:04 2021 +1000
+
+    added back to top button in blogs.html
+
+commit b695c7ee54e575aed7486f95089c0d009fd8b89f
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 17:16:25 2021 +1000
+
+    created collapsible article for invididual blogs
+
+commit bce7b448bf1bbd54e323c1a825c8d3220419c466
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 14:15:12 2021 +1000
+
+    created blogs.scss and linked to style.scss
+
+commit 91a5e3162596b3ae2ee0fba1ffef34ea9a36e18b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 13:58:27 2021 +1000
+
+    added left and right positioning for nav in syle.css
+
+commit fbdb78b5002348af0ce69421f93f15c5504ed5ca
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 13:27:25 2021 +1000
+
+    saving changes before checkout
+
+commit 4b9b235d85d74acb4681acd933e881244ec028bf
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 12:20:18 2021 +1000
+
+    flexbox styling for tablet
+
+commit 1266c891c843a8082658ac28b8fe6c785de22097
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Wed Apr 14 11:29:13 2021 +1000
+
+    added flexbox to projects.html
+
+commit 5974b8522c363c2cfb25587884ab7325757d3686
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 16:58:33 2021 +1000
+
+    created projects.scss in partials and linked to style.scss
+
+commit 1bd3d0a62a2391bb5aa2011d294a78449696d436
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 16:53:08 2021 +1000
+
+    styled about.html for tablet and desktop
+
+commit a4a4aa3911aa74f74bc8571148bee6e953408e11
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 14:34:00 2021 +1000
+
+    added flex-box to written components of about.html
+
+commit 6904335c14354c1f10c80104c4aebabdae452039
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 14:02:13 2021 +1000
+
+    fixed background issue with bckg-attachment, added more variables
+
+commit f0795d4759884477b8eb7bd0d4fcb252ba199d25
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 12:48:47 2021 +1000
+
+    created about/scss and imported it to style.scss
+
+commit 3a1bf0fa73d3e1dce05c614380430f074bb89021
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 12:43:45 2021 +1000
+
+    changed main layout to grid
+
+commit 9af4fdcc48b1c4df27bc13c1de85f2810aded775
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 12:10:00 2021 +1000
+
+    moved media querie widths to style.scss
+
+commit b89be0f37249b0b089944f41cdea815da240f4c2
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 11:39:08 2021 +1000
+
+    got rid of margin and padding for main tag
+
+commit a9b92fc702e5d469eacc016cff65e5b7979c3d60
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 09:45:40 2021 +1000
+
+    linked home.scss to style.scss
+
+commit 09e0136f6a10dc3450758a9b591c7a37b2ecfca9
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 09:37:20 2021 +1000
+
+    created home.scss and created flexbox for main components
+
+commit 73d0d7e8cb104a870671a3d43cc7996c1d1c70f8
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 13 09:31:32 2021 +1000
+
+    changed tag classes for main divs
+
+commit 6433bcca3dc18bc41dc4b8830686dfd903947d28
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 23:46:52 2021 +1000
+
+    added text colors, added media queries for background and nav
+
+commit d8a2ecfd723914fa425b6c33cae758b9f1b4a5ab
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 17:07:07 2021 +1000
+
+    footer positioning fixed. adjusted background-size
+
+commit e984ac27f44cb6b89e0426f68ff16f780c75446b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 16:54:03 2021 +1000
+
+    added color and text-shade to icons in nav and footer
+
+commit 9bc1ac90a6affdd3bec5539345472e3c841e613e
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 16:15:33 2021 +1000
+
+    added background image for smaller screens
+
+commit 240c139b2d26c42df793aafacfe42d2289d92181
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 15:50:46 2021 +1000
+
+    added background image and styling
+
+commit 56191d6d90b6a2713c5153282f158a8c7b42d9ba
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 15:36:31 2021 +1000
+
+    changed html components of nav for all pages
+
+commit 9e544ccec09dbaea3a2d5d0c50986f822d24ae7a
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 15:32:38 2021 +1000
+
+    imported fonts and added them to variables
+
+commit ac09c2928b379575bafa38a3d65958de7adcacc1
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 15:17:28 2021 +1000
+
+    changed footer position so it stays on the bottom
+
+commit 172ca28d7c1d5290874a9ef4a7ce50b124d2c298
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 13:47:54 2021 +1000
+
+    added media queries to main components of page
+
+commit 554aeae84f205d02aa0fc72e6e9ad382e4aa3860
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 12:19:32 2021 +1000
+
+    redoing previous commit with correct files
+
+commit 1a175bbce3f1c0eff1ae72e9eaa3f50427e898ce
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 11:38:14 2021 +1000
+
+    correcting input errors for import
+
+commit 8fabb54fb684b534d9d234529900fd2a3ee69e1f
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 11:35:50 2021 +1000
+
+    redoing previous commit with correct files
+
+commit bfef63e7e2389f366922f1bdc88427db8dd7dcf2
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 11:34:03 2021 +1000
+
+    created and imported variables.scss file
+
+commit dc54a9048b1e295f31497d892690ae90a74c43e5
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 11:30:02 2021 +1000
+
+    changed div tag to nav for all html pages
+
+commit c65160367131660478ba9ebe7315ff278670c735
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Mon Apr 12 11:26:34 2021 +1000
+
+    created basic formatting and created partials file for scss
+
+commit 7ced5f916333ca7bce0522d3c7a2cbeb954ce9e1
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:48:18 2021 +1000
+
+    changed navbar on all pages
+
+commit bdc146c9da82427cc4b3b219f4a7ff423bcbef4b
+Merge: a80c1f6 d611c1e
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Sun Apr 11 21:33:38 2021 +1000
+
+    Merge pull request #9 from clareahnem/blogs
+    
+    added links to necessary areas
+
+commit d611c1e9fe7df9e36ad1560f7645305a5e4559c8
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:32:54 2021 +1000
+
+    added links to necessary areas
+
+commit a80c1f6f17a97b16b1118e1625c0fd8aba45d5c8
+Merge: ecec4f4 7ff59d3
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Sun Apr 11 21:29:20 2021 +1000
+
+    Merge pull request #8 from clareahnem/blogs
+    
+    Blogs
+
+commit 7ff59d311b8e8ba8aa59c453790934a571ac1fa6
+Merge: 02bf3ea ecec4f4
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Sun Apr 11 21:29:11 2021 +1000
+
+    Merge branch 'main' into blogs
+
+commit 02bf3ea1bb572992fca656d4aff616404b21a06d
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:24:31 2021 +1000
+
+    edited buttons of blogs one four and five
+
+commit 5adfcf16b8cedb5ddca4904f01360088bafeade4
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:22:35 2021 +1000
+
+    added contents to blogfive.html
+
+commit ad2960f3020d435ffd58db7dade8a62b650b357f
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:18:54 2021 +1000
+
+    added contents to blogfour.html
+
+commit 81c2e67d0b6477d7d4d1069f6590a1128c357de8
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:15:55 2021 +1000
+
+    added contents to blogthree.html
+
+commit f410269a3dc22b91f18312166dde71810e5ec719
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:12:15 2021 +1000
+
+    added contents to blogtwo.html
+
+commit 00e79f1607bd8643549a94fc2250b2bd7a333a5e
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 21:09:56 2021 +1000
+
+    added contents to blogone.html
+
+commit ce3956fa44ae0ad600267de10698426a98858a8e
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 20:59:14 2021 +1000
+
+    created html for separate blog posts
+
+commit ecec4f4b30f1c22ab674eefbae9aaa831d940a44
+Merge: cf69270 e5cb014
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Sun Apr 11 20:53:33 2021 +1000
+
+    Merge pull request #7 from clareahnem/projects
+    
+    Projects
+
+commit e5cb014109fd21e3ce1ad3acac12ea878d1be656
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 20:37:55 2021 +1000
+
+    added another projects img and title
+
+commit 5a10da069d2319b567dca420186af6402b8d90e4
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 20:31:30 2021 +1000
+
+    added contents to projects.html
+
+commit 172c6a6483725778af9d4115dc7e5a8701a00c89
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 20:28:58 2021 +1000
+
+    added images for projects
+
+commit 823ccc6d9c2ed6188e4495a84c2d14ace8031e57
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 20:10:57 2021 +1000
+
+    initial commit for projects branch
+
+commit cf69270aca2a7b569e79ed944fc1afa92a80303d
+Merge: 31b147f 8cedc22
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Sun Apr 11 20:06:48 2021 +1000
+
+    Merge pull request #6 from clareahnem/blogs
+    
+    Blogs
+
+commit 8cedc228028698f4cd9b395e6cb0e942a3bf8891
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 20:02:35 2021 +1000
+
+    added blog contents to blogs.html
+
+commit 8ab2628cd4da051777afa2749b7190125b2b8b8a
+Merge: 3655324 77721aa
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 19:52:32 2021 +1000
+
+    deleted vancouver.jpeg file
+
+commit 365532446bc458447991618762a70c3f5ba22c23
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 19:45:50 2021 +1000
+
+    changed images for blog to smaller sized ones
+
+commit 31b147fafcfa847e215275c3c4fdde0464e1487e
+Merge: cdd6452 77721aa
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Sun Apr 11 19:20:18 2021 +1000
+
+    Merge pull request #5 from clareahnem/blogs
+    
+    Blogs
+
+commit 77721aa99269a5a815f7cd1fe98717241419cee8
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 19:19:14 2021 +1000
+
+    renamed vancouver.jpeg
+
+commit e90ec149233766ac0fda7c5ddc63c850757c687e
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 19:17:44 2021 +1000
+
+    added images for blogs
+
+commit 9027b39d64acbf96cb5231c542d8552f69159500
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 18:21:30 2021 +1000
+
+    initial commit
+
+commit cdd64520b17eb62a4507914fbb280f00a5cc612f
+Merge: 1b1992f 16dd76b
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Sun Apr 11 17:45:40 2021 +1000
+
+    Merge pull request #4 from clareahnem/about
+    
+    added contents to about.html
+
+commit 16dd76bb83f434b2ec5459511646e7bcd6de519a
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Sun Apr 11 17:44:57 2021 +1000
+
+    added contents to about.html
+
+commit 1b1992fca1cc6ae7e684ede691cd9e144eb12ed1
+Merge: 7994d70 55b5f81
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Fri Apr 9 15:06:09 2021 +1000
+
+    Merge pull request #3 from clareahnem/about
+    
+    added text on study history section
+
+commit 55b5f810a8b62b1b5ef1c732c0839f3529cf60b1
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 15:04:26 2021 +1000
+
+    added text on study history section
+
+commit 7994d70a36a0c5b838aac31c19cb763b7b431380
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 14:27:34 2021 +1000
+
+    added boilerplate for projects.html
+
+commit be613f0c74edb1d713939aab7eef0a6737c66f07
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 14:27:00 2021 +1000
+
+    added boilerplate for blogs.html
+
+commit fd0b03d7a1fdae4a3abd808a37d3a1bc965e0261
+Merge: 5555b7a 8432f65
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Fri Apr 9 14:24:18 2021 +1000
+
+    Merge pull request #2 from clareahnem/about
+    
+    created boilerplate for about.html and added title
+
+commit 8432f6534c4e0318f5b2a92c456cdb1cb99c9bd4
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 14:23:03 2021 +1000
+
+    created boilerplate for about.html and added title
+
+commit 5555b7a128531a1a4261c75f399ee0be4952aefd
+Merge: 1c8fa1b 615da4e
+Author: Clare <75731181+clareahnem@users.noreply.github.com>
+Date:   Fri Apr 9 14:18:39 2021 +1000
+
+    Merge pull request #1 from clareahnem/index
+    
+    Index
+
+commit 1c8fa1ba301d38b1908a8780a357dc14634eddae
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 14:17:14 2021 +1000
+
+    created about.html blogs.html and projects.html
+
+commit 615da4e4aea12622de8fa26ad44b9a851109fb15
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 13:51:30 2021 +1000
+
+    added styling to footer
+
+commit ded349f77eeea52ce3b6861df747279caeabfa05
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 13:23:39 2021 +1000
+
+    connected css file to scss file and added global styles
+
+commit 9365434a9d4be06aaf3e3d73a7245177913e36ea
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 12:39:01 2021 +1000
+
+    created css and scss files
+
+commit 1db3051e5b6145f36f833a26f03b56b0b2b7879b
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 11:44:12 2021 +1000
+
+    added html boilerplate
+
+commit 9c1a4dab3706de15a13bf01168e127d3c5fb552d
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Fri Apr 9 11:38:16 2021 +1000
+
+    created index.html file and added image folder
+
+commit 83963447c06d2bbbdda744f423f4713e6df6d45c
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 6 16:31:31 2021 +1000
+
+    corrected markdown format errors
+
+commit cce18db0b898956660911c922735dbafbcf46301
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 6 16:28:39 2021 +1000
+
+    added main sections on README
+
+commit 6924529c54eaec9e11780273acaa0a889b7d1d25
+Author: ahnemui <clh.oneil@gmail.com>
+Date:   Tue Apr 6 16:07:17 2021 +1000
+
+    initial commit
