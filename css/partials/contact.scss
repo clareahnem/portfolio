@@ -1,8 +1,12 @@
 //styling for contacts page
 
 .contact-description {
-  margin: 10px 10vw;
+  margin: 10px auto;
   max-width: 530px;
+  text-align: center;
+   p {
+     text-align: center;
+   }
 }
 form {
   margin: 0 auto;

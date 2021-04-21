@@ -764,7 +764,13 @@
 }
 
 .contact-description {
-  margin: 10px 10vw;
+  margin: 10px auto;
+  max-width: 530px;
+  text-align: center;
+}
+
+.contact-description p {
+  text-align: center;
 }
 
 form {
