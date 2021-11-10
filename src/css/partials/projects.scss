@@ -36,7 +36,8 @@
     .prj-pic {
         text-align: center;
         .project-img {
-            width: 98%;
+            max-width: 98%;
+            // min-height: 200px;
             border-radius: 10px;
             @include glowy-box($bkg-color: $text-color);
         }
@@ -80,31 +81,31 @@
     /* For desktop: */
     .project-container {
         min-height: 50vh;
-        justify-content: flex-start;
-        flex-wrap: nowrap;
+        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         
         .project-child:hover {
-            --endWidth: 70%;
-            animation: div-expand 1s forwards;
+            --endWidth: 30%;
+            animation: div-expand 0.5s forwards;
             animation-timing-function: ease-out;
             .project-title {
                 --scale: 1.45;
-                animation: expand 1s forwards;
+                animation: expand 0.5s forwards;
                 animation-timing-function: ease-out;
                 
             }
         }
         .project-child {
             min-height: 142px;
-            --endWidth: 70%;
+            --endWidth: 30%;
             --startWidth: 25%;
             animation-name: div-expand-reverse;
-            animation-duration: 1s;
+            animation-duration: 0.5s;
             .project-title {
             --scale: 1.45;
             animation-name: expand-reverse;
-            animation-duration: 1s;
+            animation-duration: 0.5s;
             font-size: 13px;
                 a {
                     font-size: 13px;
